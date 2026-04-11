@@ -31,6 +31,11 @@ This repository contains a fictional but highly realistic Information Security M
 ### 4. Regulatory Compliance (`/4_Incident_Response_NIS2`)
 *   **NIS2 Incident Reporting Workflow:** A flowchart and policy document outlining the mandatory 24-hour early warning and 72-hour incident notification process required by the directive.
 
+### 5. Audit & Metrics (`/5_Audit_and_Metrics`)
+*   **Internal Audit Checklist:** A structured evaluation tool (aligned with ISO 27001 Clause 9.2) used to assess the effectiveness and conformity of the implemented ISMS controls.
+*   **Management Review Agenda:** A template outlining the required inputs and outputs for the annual executive review of the ISMS (Clause 9.3), ensuring continuous improvement and leadership visibility.
+
+
 ## 👨‍💻 About the Author
 *   **Background:** Corporate Language Trainer transitioning to InfoSec GRC.
 *   **Education:** MSc Computer Science (In Progress, Heriot-Watt University).
