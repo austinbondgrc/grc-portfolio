@@ -39,7 +39,7 @@ This repository contains a fictional but highly realistic Information Security M
 ## 👨‍💻 About the Author
 *   **Background:** Corporate Language Trainer transitioning to InfoSec GRC.
 *   **Education:** MSc Computer Science (In Progress, Heriot-Watt University).
-*   **Certifications:** PECB ISO/IEC 27001 Lead Implementer & Auditor (In Progress), Associate of ISC2 (ISSIP) (In Progress).
+*   **Certifications:** PECB ISO/IEC 27001 Lead Implementer & Auditor (In Progress), Associate of ISC2 (CISSP) (In Progress).
 *   **Contact:** https://www.linkedin.com/in/austingrc/
 
 *Disclaimer: All documents in this repository are for educational and demonstration purposes only. They do not contain real proprietary information.*
