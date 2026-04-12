@@ -175,8 +175,7 @@ continuous improvement in line with Clause 9.3 requirements.
 | | PECB NIS2 Provisional Implementer *(In Progress)* |
 | | Associate of ISC2 — CISSP *(In Progress)* |
 | **Languages** | English (Native) · German (B1/B2) |
-| **Target Market** | German private sector — in-house GRC roles and consulting 
-(focus: Mittelstand, professional services, retail, and manufacturing) |
+| **Target Market** | German private sector — in-house GRC roles and consulting |
 | **LinkedIn** | [linkedin.com/in/austingrc](https://linkedin.com/in/austingrc) |
 
 ---
