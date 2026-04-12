@@ -1,6 +1,6 @@
 # 📁 1 — Governance & Scope
 
-> **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**
+> **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 > Prepared by: Austin Bond, Junior GRC Consultant
 
 ---
@@ -100,28 +100,28 @@ appropriate level of leadership.
 
 ---
 
-## 🗺️ How These Documents Fit the Wider ISMS
+## 🗺️ How This Folder Fits the Wider ISMS Portfolio
 
-```
-ISO 27001:2022 Implementation Sequence
+ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
-├── 📁 1 — Governance & Scope          ← YOU ARE HERE
-│   ├── MT-ISMS-SCO-001  (Clause 4)
-│   └── MT-ISMS-POL-001  (Clause 5)
+├── 📁 1 — Governance & Scope               ← YOU ARE HERE
+│   ├── MT-ISMS-SCO-001  Scope & Context    (Clause 4)
+│   └── MT-ISMS-POL-001  InfoSec Policy     (Clause 5)
 │
 ├── 📁 2 — Risk Management
-│   ├── Risk Assessment Methodology    (Clause 6.1)
-│   └── Risk Register                  (Clause 6.1 / 6.2)
+│   ├── Risk Assessment Methodology         (Clause 6.1)
+│   └── Risk Register                       (Clause 6.1 / 6.2)
 │
 ├── 📁 3 — Statement of Applicability
-│   └── SoA — 93 Annex A Controls      (Clause 6.1.3)
+│   └── SoA — 93 Annex A Controls           (Clause 6.1.3)
 │
-├── 📁 4 — Policies & Procedures
-│   └── Supporting policy suite        (Clause 8)
+├── 📁 4 — Regulatory Compliance
+│   └── NIS2 Incident Reporting Workflow    (NIS2 Art. 23)
 │
-└── 📁 5 — Audit & Review
-    └── Internal Audit Programme       (Clause 9)
-```
+└── 📁 5 — Audit & Metrics
+├── Internal Audit Checklist            (Clause 9.2)
+└── Management Review Agenda           (Clause 9.3)
+
 
 ---
 
@@ -145,13 +145,15 @@ ISMS implementation for a fictional B2B Financial Data Analytics SaaS company
 operating under German law.
 
 **Client profile:**
-- **Company:** MunichTech GmbH
-- **Industry:** B2B Financial Data Analytics (SaaS)
-- **Location:** Munich, Bavaria, Germany
-- **Infrastructure:** AWS Frankfurt (eu-central-1)
-- **Headcount:** 50 employees
-- **Compliance drivers:** ISO 27001:2022 (enterprise client requirement), 
-  EU NIS2 Directive, DSGVO
+
+| Field | Detail |
+|---|---|
+| **Company** | MunichTech GmbH |
+| **Industry** | B2B Financial Data Analytics (SaaS) |
+| **Location** | Munich, Bavaria, Germany |
+| **Infrastructure** | AWS Frankfurt (eu-central-1) |
+| **Headcount** | 50 employees |
+| **Compliance Drivers** | ISO 27001:2022, EU NIS2 Directive, DSGVO |
 
 All documents in this portfolio are fictional consulting deliverables created 
 for portfolio demonstration purposes. Any resemblance to real organisations 
@@ -161,6 +163,7 @@ is coincidental.
 
 ## 📬 Contact
 
-**Austin Bond**
-Junior GRC Consultant | ISO 27001 Lead Implementer/Auditor (in progress)
-[LinkedIn](https://linkedin.com/in/austinbondgrc) | 
+**Austin Bond**  
+Junior GRC Consultant | ISO 27001 Lead Implementer/Auditor *(in progress)*  
+[LinkedIn](https://linkedin.com/in/austinbondgrc)
+
