@@ -110,6 +110,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │   └── MT-ISMS-POL-001  InfoSec Policy     (Clause 5)
 │
 ├── 📁 2 — Risk Management
+|   ├── Information Asset Register          (Annex A 5.9)
 │   ├── Risk Assessment Methodology         (Clause 6.1)
 │   └── Risk Register                       (Clause 6.1 / 6.2)
 │
@@ -117,8 +118,9 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │   └── SoA — 93 Annex A Controls           (Clause 6.1.3)
 │
 ├── 📁 4 — Regulatory Compliance
-│   └── NIS2 Incident Reporting Workflow    (NIS2 Art. 23)
-│
+│   |── NIS2 Incident Reporting Workflow    (NIS2 Art. 23)
+│   └── DSGVO RoPA Template                 (DSGVO Art. 30)
+|
 └── 📁 5 — Audit & Metrics
     ├── Internal Audit Checklist            (Clause 9.2)
     └── Management Review Agenda           (Clause 9.3)
