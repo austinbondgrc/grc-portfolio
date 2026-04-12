@@ -102,6 +102,7 @@ appropriate level of leadership.
 
 ## 🗺️ How These Documents Fit the Wider ISMS
 
+```
 ISO 27001:2022 Implementation Sequence
 │
 ├── 📁 1 — Governance & Scope          ← YOU ARE HERE
@@ -120,7 +121,7 @@ ISO 27001:2022 Implementation Sequence
 │
 └── 📁 5 — Audit & Review
     └── Internal Audit Programme       (Clause 9)
-
+```
     ---
 
 ## ⚖️ Regulatory Alignment
