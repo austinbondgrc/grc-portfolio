@@ -28,7 +28,7 @@ This repository contains a fictional but highly realistic Information Security M
 ### 3. Statement of Applicability (`/3_Statement_of_Applicability`)
 *   **SoA Document (Excel):** A comprehensive mapping of the 93 Annex A controls (2022 revision), explicitly stating which controls are selected, the justification for inclusion/exclusion, and the implementation status.
 
-### 4. Regulatory Compliance (`/4_Incident_Response_NIS2`)
+### 4. Regulatory Compliance (`/4_Regulatory_Compliance`)
 *   **NIS2 Incident Reporting Workflow:** A flowchart and policy document outlining the mandatory 24-hour early warning and 72-hour incident notification process required by the directive.
 
 ### 5. Audit & Metrics (`/5_Audit_and_Metrics`)
