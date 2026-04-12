@@ -102,6 +102,7 @@ appropriate level of leadership.
 
 ## 🗺️ How This Folder Fits the Wider ISMS Portfolio
 
+,,,
 ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
 ├── 📁 1 — Governance & Scope               ← YOU ARE HERE
@@ -121,7 +122,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 └── 📁 5 — Audit & Metrics
 ├── Internal Audit Checklist            (Clause 9.2)
 └── Management Review Agenda           (Clause 9.3)
-
+,,,
 
 ---
 
