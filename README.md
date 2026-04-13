@@ -73,8 +73,8 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │       Activities (RoPA)
 │
 └── 📁 5 — Audit & Metrics
-├── Internal Audit Checklist            (Clause 9.2)
-└── Management Review Agenda           (Clause 9.3)
+    ├── Internal Audit Checklist            (Clause 9.2)
+    └── Management Review Agenda           (Clause 9.3)
 ```
 
 ---
