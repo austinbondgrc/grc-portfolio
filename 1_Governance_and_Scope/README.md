@@ -167,6 +167,6 @@ is coincidental.
 ## 📬 Contact
 
 **Austin Bond**  
-Junior GRC Consultant | ISO 27001 Lead Implementer/Auditor *(in progress)*  
+Junior GRC Consultant | ISO 27001 Provisional Implementer/Auditor, NIS2 Provisional Implementer *(in progress)*  
 [LinkedIn](https://linkedin.com/in/austinbondgrc)
 
