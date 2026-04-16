@@ -171,7 +171,7 @@ continuous improvement in line with Clause 9.3 requirements.
 |---|---|
 | **Background** | Corporate Language Trainer — executive communication and stakeholder management |
 | **Education** | MSc Computer Science *(In Progress — Heriot-Watt University)* |
-| **Certifications** | PECB ISO/IEC 27001 Lead Implementer & Auditor *(In Progress)* |
+| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer & Auditor *(In Progress)* |
 | | PECB NIS2 Provisional Implementer *(In Progress)* |
 | | Associate of ISC2 — CISSP *(In Progress)* |
 | **Languages** | English (Native) · German (B1/B2) |
