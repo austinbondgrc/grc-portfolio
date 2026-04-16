@@ -2,7 +2,7 @@
 ### MunichTech GmbH | ISO 27001:2022 ISMS Implementation
 
 > Prepared by: **Austin Bond** — Junior GRC Consultant  
-> Target Market: German Private Sector | Financial Services & SaaS  
+> Target Market: German Private Sector
 > Status: **Active Development**
 
 ---
