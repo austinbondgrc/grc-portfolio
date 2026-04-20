@@ -1,3 +1,9 @@
+---
+title: Governance, Risk & Compliance (GRC) Portfolio
+layout: home
+nav_order: 1
+---
+
 # 🛡️ Governance, Risk & Compliance (GRC) Portfolio
 ### MunichTech GmbH | ISO 27001:2022 ISMS Implementation
 
