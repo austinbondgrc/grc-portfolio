@@ -136,6 +136,12 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ---
 
+## 📥 Download Documents
+[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/2_Risk_Management){: .btn }
+[⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
+
+---
+
 ## 📬 Contact
 
 **Austin Bond**  
