@@ -80,7 +80,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ---
 
 ## 📥 Download Documents
-[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/Statement_of_Applicability){: .btn }
+[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/3_Statement_of_Applicability){: .btn }
 [⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
 
 ---
