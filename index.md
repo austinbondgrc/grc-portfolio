@@ -31,6 +31,23 @@ rights — is woven throughout.
 
 ---
 
+## 👨‍💻 About the Author
+
+**Austin Bond** — Junior GRC Consultant
+
+| Field | Detail |
+|---|---|
+| **Background** | Corporate Language Trainer — executive communication and stakeholder management |
+| **Education** | MSc Computer Science *(In Progress — Heriot-Watt University)* |
+| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer & Auditor *(In Progress)* |
+| | PECB NIS2 Provisional Implementer *(In Progress)* |
+| | Associate of ISC2 — CISSP *(In Progress)* |
+| **Languages** | English (Native) · German (B1/B2) |
+| **Target Market** | German private sector — in-house GRC roles and consulting companies |
+| **LinkedIn** | [linkedin.com/in/austingrc](https://linkedin.com/in/austingrc) |
+
+---
+
 ## 🏢 Fictional Client Profile
 
 | Field | Detail |
@@ -162,23 +179,6 @@ structured evaluation tool for assessing ISMS control effectiveness and
 conformity. The Management Review Agenda documents required inputs and outputs 
 for the annual executive ISMS review, ensuring leadership visibility and 
 continuous improvement in line with Clause 9.3 requirements.
-
----
-
-## 👨‍💻 About the Author
-
-**Austin Bond** — Junior GRC Consultant
-
-| Field | Detail |
-|---|---|
-| **Background** | Corporate Language Trainer — executive communication and stakeholder management |
-| **Education** | MSc Computer Science *(In Progress — Heriot-Watt University)* |
-| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer & Auditor *(In Progress)* |
-| | PECB NIS2 Provisional Implementer *(In Progress)* |
-| | Associate of ISC2 — CISSP *(In Progress)* |
-| **Languages** | English (Native) · German (B1/B2) |
-| **Target Market** | German private sector — in-house GRC roles and consulting companies |
-| **LinkedIn** | [linkedin.com/in/austingrc](https://linkedin.com/in/austingrc) |
 
 ---
 
