@@ -1,6 +1,5 @@
 ---
 title: Governance, Risk & Compliance (GRC) Portfolio
-layout: home
 nav_order: 1
 ---
 
