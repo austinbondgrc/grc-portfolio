@@ -10,7 +10,7 @@ has_children: true
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Consultant
 
-### 📌 Folder Overview
+## 📌 Folder Overview
 
 This folder contains the definitive bridge between risk assessment and operational security. The Statement of Applicability (SoA) is the most heavily scrutinized document during an ISO 27001 certification audit. It dictates exactly which security controls the organization has chosen to implement to treat the risks identified in the Risk Register.
 
@@ -18,9 +18,9 @@ The document in this folder demonstrates a comprehensive, audit-ready matrix ali
 
 ---
 
-### 📄 Documents in This Folder
+## 📄 Documents in This Folder
 
-#### 1. Statement of Applicability (SoA)
+### 1. Statement of Applicability (SoA)
 
 **File:** `MT-ISMS-SOA-001_v1.0.xlsx`
 
@@ -40,7 +40,7 @@ It evaluates all 93 controls from Annex A, explicitly stating whether they are a
 
 ---
 
-### 🗺️ How This Folder Fits the Wider ISMS Portfolio
+## 🗺️ How This Folder Fits the Wider ISMS Portfolio
 
 ```text
 ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
@@ -68,7 +68,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ---
 
-### ⚖️ Regulatory Alignment
+## ⚖️ Regulatory Alignment
 
 | Regulation | Relevance to This Folder |
 | :--- | :--- |
