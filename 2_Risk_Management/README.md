@@ -1,3 +1,9 @@
+---
+title: Risk Management
+nav_order: 2
+has_children: true
+---
+
 # 📁 2 — Risk Management
 
 > **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
