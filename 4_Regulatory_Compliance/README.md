@@ -1,5 +1,6 @@
 ---
 title: Regulatory Compliance
-nav_order: 5
+parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
+nav_order: 4
 has_children: true
 ---
