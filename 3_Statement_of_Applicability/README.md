@@ -1,3 +1,9 @@
+---
+title: Statement of Applicability
+nav_order: 3
+has_children: true
+---
+
 # 📁 3 — Statement of Applicability
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
