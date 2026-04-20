@@ -177,7 +177,7 @@ is coincidental.
 | Document | Reference | ISO Clause | Download |
 |---|---|---|:---:|
 | ISMS Scope and Context Definition | MT-ISMS-SCO-001 | 4.1–4.3 | [⬇ PDF](https://github.com/austinbondgrc/grc-portfolio/raw/main/1_Governance/munichtech_isms-scope-context_v1.0.pdf) |
-| Information Security Policy | MT-ISMS-POL-001 | 5.1–5.3 | [⬇ PDF](https://github.com/austinbondgrc/grc-portfolio/raw/main/1_Governance/munichtech_isms-infosec-policy_v1.0.pdf) |
+| Information Security Policy | MT-ISMS-POL-001 | 5.1–5.3 | [⬇ PDF]([https://github.com/austinbondgrc/grc-portfolio/raw/main/1_Governance/munichtech_isms-infosec-policy_v1.0.pdf](https://raw.githubusercontent.com/austinbondgrc/grc-portfolio/main/1_Governance_and_Scope/munichtech_isms-infosec-policy_v1.0.pdf)) |
 
 [📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/1_Governance_and_Scope){: .btn }
 [⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
