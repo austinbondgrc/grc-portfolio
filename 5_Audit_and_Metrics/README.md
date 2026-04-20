@@ -1,5 +1,6 @@
 ---
 title: Audit & Metrics
-nav_order: 6
+parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
+nav_order: 5
 has_children: true
 ---
