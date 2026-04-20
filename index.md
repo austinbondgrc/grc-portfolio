@@ -89,7 +89,6 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ## 📄 Portfolio Contents
 
 ### 📁 1 — Governance & Scope
-`/1_Governance_and_Scope`
 
 | Document | Reference | Clause |
 |---|---|---|
@@ -106,7 +105,6 @@ NIS2 Article 20 personal executive liability.
 ---
 
 ### 📁 2 — Risk Management
-`/2_Risk_Management`
 
 | Document | Reference | Clause |
 |---|---|---|
@@ -124,7 +122,6 @@ decisions aligned to the board-approved risk appetite.
 ---
 
 ### 📁 3 — Statement of Applicability
-`/3_Statement_of_Applicability`
 
 | Document | Reference | Clause |
 |---|---|---|
@@ -138,7 +135,6 @@ closely and the artifact that demonstrates the depth of control design thinking.
 ---
 
 ### 📁 4 — Regulatory Compliance
-`/4_Regulatory_Compliance`
 
 | Document | Reference | Framework |
 |---|---|---|
@@ -155,7 +151,6 @@ bases, data categories, retention schedules, and processor relationships
 ---
 
 ### 📁 5 — Audit & Metrics
-`/5_Audit_and_Metrics`
 
 | Document | Reference | Clause |
 |---|---|---|
