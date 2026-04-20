@@ -5,3 +5,4 @@ color_scheme: dark
 search_enabled: true
 aux_links:
   "GitHub Repo": https://github.com/austinbondgrc/grc-portfolio
+nav_sort: case_sensitive  
