@@ -1,3 +1,9 @@
+---
+title: Governance and Scope
+nav_order: 1
+has_children: true
+---
+
 # 📁 1 — Governance & Scope
 
 > **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
