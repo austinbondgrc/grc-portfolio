@@ -5,7 +5,7 @@ nav_order: 1
 has_children: true
 ---
 
-# 📁 1 — Governance & Scope
+# Governance & Scope
 
 > **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 > Prepared by: Austin Bond, Junior GRC Consultant
