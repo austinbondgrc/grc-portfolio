@@ -1,5 +1,5 @@
 ---
-title: Risk Management
+title: 📁 Risk Management
 parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
 nav_order: 2
 has_children: true
