@@ -5,7 +5,7 @@ nav_order: 4
 has_children: true
 ---
 
-# 📁 4 — Regulatory Compliance
+# Regulatory Compliance
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Consultant
