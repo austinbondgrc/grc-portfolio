@@ -1,5 +1,5 @@
 ---
-title: Governance and Scope
+title: 📁 Governance and Scope
 parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
 nav_order: 1
 has_children: true
