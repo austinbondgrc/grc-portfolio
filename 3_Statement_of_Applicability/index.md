@@ -1,5 +1,5 @@
 ---
-title: Statement of Applicability
+title: 📁 Statement of Applicability
 parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
 nav_order: 3
 has_children: true
