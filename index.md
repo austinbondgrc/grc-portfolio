@@ -152,8 +152,7 @@ Operational assurance artifacts. The Internal Audit Checklist provides a structu
 
 ## 📥 Downloads
 
-[⬇ Download Full Portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }  
-[📁 View on GitHub](https://github.com/austinbondgrc/grc-portfolio){: .btn }
+[⬇ Download Full Portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }  [📁 View on GitHub](https://github.com/austinbondgrc/grc-portfolio){: .btn }
 
 ---
 
