@@ -102,8 +102,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ---
 
-### 📬 Contact
+## 📬 Contact
 
 **Austin Bond**  
-Junior GRC Consultant | ISO 27001 Provisional Implementer/Auditor, NIS2 Provisional Implementer (in progress)  
-[🔗 Connect on LinkedIn](https://www.linkedin.com/in/austingrc)
+Junior GRC Consultant | ISO 27001 Provisional Implementer/Auditor *(in progress)*, NIS2 Provisional Implementer *(in progress)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
