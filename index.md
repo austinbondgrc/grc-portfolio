@@ -156,6 +156,13 @@ Operational assurance artifacts. The Internal Audit Checklist provides a structu
 
 ---
 
+## 📬 Contact
+
+**Austin Bond**  
+Junior GRC Consultant | ISO 27001 Provisional Implementer/Auditor *(in progress)*, NIS2 Provisional Implementer *(in progress)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
+
+---
+
 ## ⚠️ Disclaimer
 
 All documents in this repository are fictional consulting deliverables created for portfolio demonstration purposes only. MunichTech GmbH does not exist. No real proprietary, personal, or confidential information is contained anywhere in this repository.
