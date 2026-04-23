@@ -5,7 +5,7 @@ nav_order: 5
 has_children: true
 ---
 
-# 📁 5 — Audit & Metrics
+# Audit & Metrics
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Consultant
