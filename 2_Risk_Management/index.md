@@ -10,7 +10,7 @@ has_children: true
 > **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 > Prepared by: Austin Bond, Junior GRC Consultant
 
----
+
 
 ## 📌 Folder Overview
 
