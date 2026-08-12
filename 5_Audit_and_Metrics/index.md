@@ -115,15 +115,11 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ---
 
 ## 📥 Download Documents
-
-[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/5_Audit_and_Metrics){: .btn }  
-[⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
+[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/4_Regulatory_Compliance){: .btn }  [⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
 
 ---
 
-### 📬 Contact
+## 📬 Contact
 
 **Austin Bond**  
-Junior GRC Consultant | ISO 27001 Provisional Implementer/Auditor, NIS2 Provisional Implementer (in progress)  
-[🔗 Connect on LinkedIn](https://www.linkedin.com/in/austingrc)
-```
+Junior GRC Consultant | ISO 27001 Provisional Implementer/Auditor *(in progress)*, NIS2 Provisional Implementer *(in progress)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
