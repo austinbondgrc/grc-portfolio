@@ -88,7 +88,8 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
 └── 📁 5 — Audit & Metrics
     ├── Internal Audit Checklist            (Clause 9.2)
-    └── Management Review Agenda            (Clause 9.3)
+    ├── Management Review Agenda            (Clause 9.3)
+    └── CAP Closure Memo                    (Clause 10.1)
 ```
 
 ---
@@ -145,8 +146,9 @@ German-market regulatory compliance artifacts. The NIS2 Incident Reporting Workf
 | :--- | :--- | :--- |
 | Internal Audit Checklist | MT-ISMS-AUD-001 | ISO 27001:2022 — 9.2 |
 | Management Review Agenda | MT-ISMS-MRA-001 | ISO 27001:2022 — 9.3 |
+| Corrective Action Plan (CAP) Closure Memo | MT-ISMS-CAP-001 | ISO 27001:2022 — 10.1 |
 
-Operational assurance artifacts. The Internal Audit Checklist provides a structured evaluation tool for assessing ISMS control effectiveness and conformity. The Management Review Agenda documents required inputs and outputs for the annual executive ISMS review, ensuring leadership visibility and continuous improvement in line with Clause 9.3 requirements.
+Operational assurance artifacts. The Internal Audit Checklist provides a structured evaluation tool for assessing ISMS control effectiveness and conformity. The Management Review Agenda documents required inputs and outputs for the annual executive ISMS review, ensuring leadership visibility and continuous improvement in line with Clause 9.3 requirements. The CAP Closure Memo formally documents remediation and closure of audit findings, demonstrating the "Act" phase of continual improvement.
 
 ---
 
