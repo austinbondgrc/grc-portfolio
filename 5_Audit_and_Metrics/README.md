@@ -1,10 +1,3 @@
----
-title: Audit & Metrics
-parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
-nav_order: 5
-has_children: true
----
-
 # 📁 5 — Audit & Metrics
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
