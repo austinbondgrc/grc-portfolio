@@ -8,7 +8,7 @@ has_children: true
 # Governance & Scope
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
-Prepared by: Austin Bond, Junior GRC Consultant
+Prepared by: Austin Bond, Junior GRC Professional
 
 
 ## 📌 Folder Overview
@@ -181,5 +181,5 @@ is coincidental.
 ## 📬 Contact
 
 **Austin Bond**  
-Junior GRC Consultant | ISO 27001 Provisional Implementer/Auditor *(in progress)*, NIS2 Provisional Implementer *(in progress)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer/Auditor *(in progress)*, NIS2 Provisional Implementer *(in progress)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
 
