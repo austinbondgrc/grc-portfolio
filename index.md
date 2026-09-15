@@ -33,7 +33,7 @@ Every artifact has been built to a standard suitable for presentation to a DAkkS
 | **Background** | Corporate Language Trainer — executive communication and stakeholder management |
 | **Education** | MSc Computer Science *(In Progress — Heriot-Watt University)* |
 | **Certifications** | PECB ISO/IEC 27001 Provisional Implementer & Auditor *(In Progress)*<br>PECB NIS2 Provisional Implementer *(In Progress)*<br>Associate of ISC2 — CISSP *(In Progress)* |
-| **Languages** | English (Native) · German (B1/B2) |
+| **Languages** | English (Native) · German (C1)(In progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
 | **LinkedIn** | [linkedin.com/in/austingrc](https://linkedin.com/in/austingrc) |
 
