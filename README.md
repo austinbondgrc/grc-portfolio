@@ -35,7 +35,7 @@ rights — is woven throughout.
 | **Certifications** | PECB ISO/IEC 27001 Provisional Implementer & Auditor *(In Progress)* |
 | | PECB NIS2 Provisional Implementer *(In Progress)* |
 | | Associate of ISC2 — CISSP *(In Progress)* |
-| **Languages** | English (Native) · German (C1)(In progress) |
+| **Languages** | English (Native) · German (C1)(In Progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
 | **LinkedIn** | [linkedin.com/in/austingrc](https://linkedin.com/in/austingrc) |
 
