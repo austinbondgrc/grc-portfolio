@@ -1,7 +1,7 @@
 # 🛡️ Governance, Risk & Compliance (GRC) Portfolio
 ### MunichTech GmbH | ISO 27001:2022 ISMS Implementation
 
-> Prepared by: **Austin Bond** — Junior GRC Consultant  
+> Prepared by: **Austin Bond** — Junior GRC Professional  
 > Target Market: German Private Sector
 > Status: **Active Development**
 
@@ -26,7 +26,7 @@ rights — is woven throughout.
 
 ## 👨‍💻 About the Author
 
-**Austin Bond** — Junior GRC Consultant
+**Austin Bond** — Junior GRC Professional
 
 | Field | Detail |
 |---|---|
