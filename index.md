@@ -161,7 +161,7 @@ Operational assurance artifacts. The Internal Audit Checklist provides a structu
 ## 📬 Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer/Auditor *(in progress)*, NIS2 Provisional Implementer *(in progress)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
 
 ---
 
