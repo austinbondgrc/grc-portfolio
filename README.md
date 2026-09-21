@@ -32,8 +32,8 @@ rights — is woven throughout.
 |---|---|
 | **Background** | Corporate Language Trainer — executive communication and stakeholder management |
 | **Education** | MSc Computer Science *(In Progress — Heriot-Watt University)* |
-| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer & Auditor *(In Progress)* |
-| | PECB NIS2 Provisional Implementer *(In Progress)* |
+| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer *(Completed)* & Auditor *(In Progress)* |
+| | PECB NIS2 Provisional Implementer *(Completed)* |
 | | Associate of ISC2 — CISSP *(In Progress)* |
 | **Languages** | English (Native) · German (C1)(In Progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
