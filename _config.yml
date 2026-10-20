@@ -6,6 +6,6 @@ search_enabled: true
 aux_links:
   "GitHub Repo": https://github.com/austinbondgrc/grc-portfolio
 nav_sort: case_sensitive
-# Tooling is versioned for reproducibility but not published with the site.
+# Tooling lives outside version control; excluded here so a local build never publishes it.
 exclude:
   - tools/
