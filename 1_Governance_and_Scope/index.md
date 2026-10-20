@@ -28,13 +28,13 @@ wider ISMS portfolio.
 ## 📄 Documents in This Folder
 
 ### 1. ISMS Scope and Context Definition
-`MT-ISMS-SCO-001_v1.0_scope-context.pdf`
+`MT-ISMS-SCO-001_v1.2_scope-context.pdf`
 
 | Field | Detail |
 |---|---|
 | **Document Reference** | MT-ISMS-SCO-001 |
 | **ISO 27001:2022 Clauses** | 4.1, 4.2, 4.3 |
-| **Version** | 1.0 |
+| **Version** | 1.2 |
 | **Status** | Final |
 
 **What this document does:**
@@ -53,26 +53,27 @@ security-relevant needs and expectations.
 - Interested Parties table (Clause 4.2) includes the **Betriebsrat (Works 
   Council)** as a formal stakeholder — a German legal requirement under 
   BetrVG § 87 that generic English-language templates consistently miss
-- NIS2 entity classification confirmed as **Important Entity (Annex II)** with 
+- NIS2 entity classification confirmed as **wichtige Einrichtung (§ 28(2) BSIG, Anlage 1)** with 
   applicability verified against the BSI NIS2-Betroffenheitsprüfung 
   self-assessment criteria
 - Risk Appetite Statement included as a foundational decision-making anchor for 
   the Risk Register — absent from the original template and added based on 
   audit experience
-- Correct NIS2 fine tier applied: €7,000,000 / 1.4% global turnover (Important 
-  Entity, Article 34) — not the Essential Entity threshold commonly 
-  misapplied in generic templates
+- Correct NIS-2 fine tier applied: €7,000,000 / 1.4% global turnover for a 
+  wichtige Einrichtung (§ 65 BSIG, NIS2 Art. 34) — not the essential entity 
+  (besonders wichtige Einrichtung) threshold commonly misapplied in generic 
+  templates
 
 ---
 
 ### 2. Information Security Policy
-`MT-ISMS-POL-001_v1.0_infosec-policy.pdf`
+`MT-ISMS-POL-001_v1.2_infosec-policy.pdf`
 
 | Field | Detail |
 |---|---|
 | **Document Reference** | MT-ISMS-POL-001 |
 | **ISO 27001:2022 Clauses** | 5.1, 5.2, 5.3 |
-| **Version** | 1.0 |
+| **Version** | 1.2 |
 | **Status** | Final |
 
 **What this document does:**
@@ -89,7 +90,7 @@ appropriate level of leadership.
 - Executive Policy Statement written as a board-level commitment — not a 
   technical document — reflecting the Clause 5.1 requirement for visible 
   leadership
-- **NIS2 Article 20 personal executive liability** explicitly referenced in 
+- **§ 38 BSIG personal executive liability** explicitly referenced in 
   both the regulatory obligations section and the consequences of 
   non-compliance section — the most effective lever for securing genuine 
   board engagement with the ISMS
@@ -116,7 +117,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │   └── MT-ISMS-POL-001  InfoSec Policy     (Clause 5)
 │
 ├── 📁 2 — Risk Management
-|   ├── Information Asset Register          (Annex A 5.9)
+│   ├── Information Asset Register          (Annex A 5.9)
 │   ├── Risk Assessment Methodology         (Clause 6.1)
 │   └── Risk Register                       (Clause 6.1 / 6.2)
 │
@@ -124,9 +125,10 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │   └── SoA — 93 Annex A Controls           (Clause 6.1.3)
 │
 ├── 📁 4 — Regulatory Compliance
-│   |── NIS2 Incident Reporting Workflow    (NIS2 Art. 23)
+│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
+│   ├── NIS-2 Registration Record           (§ 33 BSIG)
 │   └── DSGVO RoPA Template                 (DSGVO Art. 30)
-|
+│
 └── 📁 5 — Audit & Metrics
     ├── Internal Audit Checklist            (Clause 9.2)
     └── Management Review Agenda           (Clause 9.3)
@@ -139,11 +141,11 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 | Regulation | Relevance to This Folder |
 |---|---|
 | **ISO/IEC 27001:2022** | Clauses 4.1–4.3 (Scope); 5.1–5.3 (Policy & Leadership) |
-| **EU NIS2 Directive** | Art. 20 (Management accountability); Art. 21 (Security measures); Annex II (Important Entity classification) |
+| **EU NIS2 Directive** | § 38 BSIG (Management accountability); § 30 BSIG (Risk-management measures); Anlage 1 (wichtige Einrichtung classification) |
 | **DSGVO / GDPR** | Processing context documented; BayLDA identified as regulatory stakeholder |
 | **BSI IT-Grundschutz** | Referenced as supplementary implementation guidance |
 | **BetrVG** | § 87 (Co-determination); § 80 (Information rights); § 94 (Personnel data) |
-| **KWG / BAIT** | Client-imposed requirements from BaFin-regulated banking clients |
+| **KWG / DORA** | Client-imposed requirements from BaFin-regulated banking clients — DORA (Reg. (EU) 2022/2554) applies from 17 January 2025, when BAIT ceased to apply |
 
 ---
 

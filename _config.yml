@@ -5,4 +5,7 @@ color_scheme: dark
 search_enabled: true
 aux_links:
   "GitHub Repo": https://github.com/austinbondgrc/grc-portfolio
-nav_sort: case_sensitive  
+nav_sort: case_sensitive
+# Tooling is versioned for reproducibility but not published with the site.
+exclude:
+  - tools/

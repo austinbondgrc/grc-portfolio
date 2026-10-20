@@ -15,12 +15,13 @@ The documents in this folder prove the ability to translate abstract legal statu
 
 ### 1. NIS2 Incident Reporting Workflow
 
-**File:** `MT-NIS2-IRP-001_v1.0_nis2-incident-reporting-workflow.pdf`
+**File:** `MT-NIS2-IRP-001_v1.2_nis2-incident-reporting-workflow.pdf`
 
 | Field | Detail |
 | :--- | :--- |
-| **Framework Reference** | EU NIS2 Directive (Art. 23) / BSIG § 32 & 35 |
+| **Framework Reference** | NIS2 Art. 23 / § 32 BSIG |
 | **Format** | PDF Document (Standard Operating Procedure) |
+| **Version** | 1.2 (citation correction) |
 
 **What this document does:**  
 It establishes the mandatory reporting workflow for the MunichTech incident response team. It defines exactly what constitutes a "Significant Incident" and outlines the strict timeline for notifying the German Federal Office for Information Security (BSI).
@@ -31,7 +32,25 @@ It establishes the mandatory reporting workflow for the MunichTech incident resp
 *   **The 24-72-30 Timeline:** Operationalizes the phased reporting requirement: a 24-hour early warning, a 72-hour detailed notification, and a 1-month final forensic report.
 *   **The "Double Notification" Rule:** Explicitly maps the parallel reporting obligations, acknowledging that a single database breach requires simultaneous notification to both the BSI (under NIS2) and the BayLDA (under DSGVO Art. 33).
 
-### 2. DSGVO Records of Processing Activities (RoPA)
+### 2. NIS-2 Betroffenheitsprüfung and BSI Registration Record
+
+**File:** `MT-NIS2-REG-001_v1.0_nis2-registration-record.pdf`
+
+| Field | Detail |
+| :--- | :--- |
+| **Framework Reference** | § 28(2) BSIG (Anlage 1) / § 33 BSIG (NIS2 Art. 27) |
+| **Format** | PDF Document (Evidence Record) |
+
+**What this document does:**  
+Records how MunichTech GmbH reached the conclusion that it is a *wichtige Einrichtung* — the sector test against Anlage 1, the establishment test, and the size arithmetic — and then records the registration it submitted to the BSI under § 33 BSIG, field by field.
+
+**Key consulting decisions:**
+
+*   **Written, not assumed:** The BSIG attaches obligations automatically once an entity is in scope; it does not wait for the BSI to certify anything. A dated, approved self-assessment is the only artefact that can still be defended two years later.
+*   **The classification corrected in public:** The record withdraws the earlier Annex II position outright, explains why it was wrong — Annex II covers consumer digital services (marketplaces, search engines, social networks), none of which MunichTech provides — and why Anlage 1, Sektor 6 is the correct home.
+*   **No simulated BSI letter:** Registration is evidenced through internal evidence IDs rather than a reproduced BSI confirmation that does not exist. Section 10 of the record states exactly what it does and does not prove.
+
+### 3. DSGVO Records of Processing Activities (RoPA)
 
 **File:** `MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx`
 
@@ -69,7 +88,8 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │   └── MT-ISMS-SOA-001  SoA — 93 Controls  (Clause 6.1.3)
 │
 ├── 📁 4 — Regulatory Compliance              <-- YOU ARE HERE
-│   ├── NIS2 Incident Reporting Workflow    (NIS2 Art. 23)
+│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
+│   ├── NIS-2 Registration Record           (§ 33 BSIG)
 │   └── DSGVO Records of Processing         (DSGVO Art. 30)
 │
 └── 📁 5 — Audit & Metrics
@@ -85,7 +105,8 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 | Regulation | Relevance to This Folder |
 | :--- | :--- |
 | **EU NIS2 Directive** | Fulfills Article 23 obligations for reporting significant cyber threats and incidents to national competent authorities. |
-| **BSIG (BSI-Gesetz)** | Aligns the European NIS2 directives directly into German federal law requirements for reporting via the BSI portal. |
+| **BSIG (BSI-Gesetz)** | German implementation of NIS2 as amended by the NIS-2-Umsetzungsgesetz (BGBl. 2025 I Nr. 301). Supplies the registration duty (§ 33), the reporting duty (§ 32) and the management-accountability duty (§ 38). |
+| **DORA (Reg. (EU) 2022/2554)** | Client flow-down basis for notifying enterprise banking clients of an incident. Has applied since 17 January 2025 in place of BAIT, and is cited alongside § 32 BSIG and DSGVO Art. 33 in the notification-recipients table. |
 | **DSGVO / GDPR** | Satisfies the mandatory requirement of Article 30 to maintain a written record of processing activities, which is the primary document requested during a BayLDA privacy audit. |
 | **ISO/IEC 27001:2022** | Satisfies Annex A Control 5.31 (Legal, statutory, regulatory and contractual requirements) and 5.5 (Contact with authorities). |
 

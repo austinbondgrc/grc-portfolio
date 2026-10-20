@@ -50,7 +50,7 @@ for quick review without opening the workbook.
 ---
 
 ### 2. Risk Assessment Methodology
-`MT-ISMS-RAM-001_v1.0_risk-assessment-methodology.pdf`
+`MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf`
 
 | Field | Detail |
 |---|---|
@@ -73,12 +73,13 @@ ensures risk assessments produce consistent, valid, and comparable results.
 ---
 
 ### 3. Information Security Risk Register
-`MT-ISMS-RR-001_v1.0_risk-register.xlsx`
+`MT-ISMS-RR-001_v1.1_risk-register.xlsx`
 
 | Field | Detail |
 |---|---|
 | **ISO 27001:2022 Reference** | Clause 6.1.2, 6.1.3, 6.2 |
 | **Format** | Excel Spreadsheet |
+| **Version** | 1.1 (citation-correction release) |
 
 **What this document does:**
 The central operational artifact of the ISMS. It applies the Methodology to the 
@@ -115,7 +116,8 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │   └── SoA — 93 Annex A Controls           (Clause 6.1.3)
 │
 ├── 📁 4 — Regulatory Compliance
-│   ├── NIS2 Incident Reporting Workflow    (NIS2 Art. 23)
+│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
+│   ├── NIS-2 Registration Record           (§ 33 BSIG)
 │   └── DSGVO Records of Processing        (DSGVO Art. 30)
 │
 └── 📁 5 — Audit & Metrics

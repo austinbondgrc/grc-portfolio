@@ -93,7 +93,8 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │   └── MT-ISMS-SOA-001  SoA — 93 Controls  (Clause 6.1.3)
 │
 ├── 📁 4 — Regulatory Compliance              
-│   ├── NIS2 Incident Reporting Workflow    (NIS2 Art. 23)
+│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
+│   ├── NIS-2 Registration Record           (§ 33 BSIG)
 │   └── DSGVO Records of Processing         (DSGVO Art. 30)
 │
 └── 📁 5 — Audit & Metrics                    <-- YOU ARE HERE

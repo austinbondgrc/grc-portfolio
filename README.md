@@ -19,7 +19,7 @@ Germany, operating under ISO 27001:2022, the EU NIS2 Directive, and DSGVO.
 Every artifact has been built to a standard suitable for presentation to a 
 DAkkS-accredited certification body, enterprise banking clients, and BaFin-regulated 
 procurement teams. The German regulatory context — including BSI IT-Grundschutz, 
-NIS2 Important Entity obligations, DSGVO Article 30, and Betriebsrat co-determination 
+NIS-2 wichtige Einrichtung obligations, DSGVO Article 30, and Betriebsrat co-determination 
 rights — is woven throughout.
 
 ---
@@ -50,7 +50,7 @@ rights — is woven throughout.
 | **Headquarters** | Munich, Bavaria, Germany |
 | **Cloud Infrastructure** | AWS Frankfurt Region (eu-central-1) |
 | **Headcount** | 50 employees |
-| **Compliance Drivers** | ISO 27001:2022 (enterprise client requirement), EU NIS2 Directive (Important Entity — Annex II), DSGVO |
+| **Compliance Drivers** | ISO 27001:2022 (enterprise client requirement), EU NIS2 Directive (wichtige Einrichtung (§ 28(2) BSIG, Anlage 1)), DSGVO, DORA (client flow-down, Reg. (EU) 2022/2554) |
 | **Key Risk** | Handling confidential financial data for Tier-1 German banking clients |
 
 ---
@@ -60,10 +60,10 @@ rights — is woven throughout.
 | Framework | Application |
 |---|---|
 | **ISO/IEC 27001:2022** | Primary ISMS framework — full implementation lifecycle |
-| **EU NIS2 Directive** | Important Entity obligations — Art. 21 measures, Art. 23 incident reporting, Art. 20 executive accountability |
+| **EU NIS2 Directive** | Obligations as a wichtige Einrichtung — § 30 BSIG measures, § 32 BSIG incident reporting, § 38 BSIG executive accountability |
 | **DSGVO / GDPR** | Data processing compliance — RoPA, AVV, BayLDA notification obligations |
 | **BSI IT-Grundschutz** | Supplementary German federal implementation guidance — OPS.2.2, APP.3.1 |
-| **KWG / BAIT** | Client-imposed BaFin regulatory expectations |
+| **KWG / DORA** | Client-imposed BaFin regulatory expectations — DORA (Reg. (EU) 2022/2554) has applied since 17 January 2025, replacing BAIT |
 
 ---
 
@@ -85,9 +85,9 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │   └── SoA — 93 Annex A Controls           (Clause 6.1.3)
 │
 ├── 📁 4 — Regulatory Compliance
-│   ├── NIS2 Incident Reporting Workflow    (NIS2 Art. 23)
-│   └── DSGVO Records of Processing        (DSGVO Art. 30)
-│       Activities (RoPA)
+│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
+│   ├── NIS-2 Registration Record           (§ 33 BSIG)
+│   └── DSGVO Records of Processing         (DSGVO Art. 30)
 │
 └── 📁 5 — Audit & Metrics
     ├── Internal Audit Checklist            (Clause 9.2)
@@ -108,10 +108,10 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 The foundational governance layer. The Scope Document defines the precise ISMS 
 boundary including AWS Shared Responsibility Model articulation, Betriebsrat 
-stakeholder identification, and NIS2 Important Entity classification confirmed 
+stakeholder identification, and NIS-2 wichtige Einrichtung classification confirmed 
 against the BSI NIS2-Betroffenheitsprüfung self-assessment criteria. The 
 Information Security Policy establishes the board-level mandate referencing 
-NIS2 Article 20 personal executive liability.
+§ 38 BSIG personal executive liability.
 
 ---
 
@@ -149,15 +149,18 @@ closely and the artifact that demonstrates the depth of control design thinking.
 
 | Document | Reference | Framework |
 |---|---|---|
-| NIS2 Incident Reporting Workflow | MT-NIS2-IRP-001 | NIS2 Art. 23 |
+| NIS2 Incident Reporting Workflow | MT-NIS2-IRP-001 | § 32 BSIG |
+| NIS-2 Betroffenheitsprüfung and BSI Registration Record | MT-NIS2-REG-001 | § 33 BSIG |
 | DSGVO Records of Processing Activities (RoPA) | MT-DSGVO-RoPA-001 | DSGVO Art. 30 |
 
 German-market regulatory compliance artifacts. The NIS2 Incident Reporting 
 Workflow documents the mandatory 24-hour early warning and 72-hour notification 
-process to BSI, including escalation paths and executive sign-off requirements 
-under Article 20. The DSGVO RoPA documents all processing activities, lawful 
-bases, data categories, retention schedules, and processor relationships 
-(Auftragsverarbeiter / AVV) in accordance with Article 30.
+process to BSI under § 32 BSIG, including escalation paths and executive 
+sign-off requirements under § 38 BSIG. The Registration Record evidences the 
+Betroffenheitsprüfung behind the entity's scope classification and the 
+registration it filed under § 33 BSIG. The DSGVO RoPA documents all processing 
+activities, lawful bases, data categories, retention schedules, and processor 
+relationships (Auftragsverarbeiter / AVV) in accordance with Article 30.
 
 ---
 
