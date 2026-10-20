@@ -28,7 +28,7 @@ wider ISMS portfolio.
 ## 📄 Documents in This Folder
 
 ### 1. ISMS Scope and Context Definition
-`MT-ISMS-SCO-001_v1.2_scope-context.pdf`
+[`MT-ISMS-SCO-001_v1.2_scope-context.pdf`](MT-ISMS-SCO-001_v1.2_scope-context.pdf)
 
 | Field | Detail |
 |---|---|
@@ -67,7 +67,7 @@ security-relevant needs and expectations.
 ---
 
 ### 2. Information Security Policy
-`MT-ISMS-POL-001_v1.2_infosec-policy.pdf`
+[`MT-ISMS-POL-001_v1.2_infosec-policy.pdf`](MT-ISMS-POL-001_v1.2_infosec-policy.pdf)
 
 | Field | Detail |
 |---|---|
@@ -175,6 +175,10 @@ is coincidental.
 
 ## 📥 Download Documents
 
+[📄 Scope & Context — PDF](MT-ISMS-SCO-001_v1.2_scope-context.pdf){: .btn }
+[📝 Scope & Context — Word](MT-ISMS-SCO-001_v1.2_scope-context.docx){: .btn }
+[📄 InfoSec Policy — PDF](MT-ISMS-POL-001_v1.2_infosec-policy.pdf){: .btn }
+[📝 InfoSec Policy — Word](MT-ISMS-POL-001_v1.2_infosec-policy.docx){: .btn }
 [📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/1_Governance_and_Scope){: .btn }
 [⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
 
@@ -183,5 +187,5 @@ is coincidental.
 ## 📬 Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
 

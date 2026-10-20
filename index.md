@@ -35,7 +35,7 @@ Every artifact has been built to a standard suitable for presentation to a DAkkS
 | **Certifications** | PECB ISO/IEC 27001 Provisional Implementer *(Completed)* & Auditor *(In Progress)*<br>PECB NIS2 Provisional Implementer *(Completed)*<br>Associate of ISC2 — CISSP *(In Progress)* |
 | **Languages** | English (Native) · German (C1)(In Progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
-| **LinkedIn** | [linkedin.com/in/austingrc](https://linkedin.com/in/austingrc) |
+| **LinkedIn** | [linkedin.com/in/austinbondgrc](https://www.linkedin.com/in/austinbondgrc) |
 
 ---
 
@@ -163,7 +163,7 @@ Operational assurance artifacts. The Internal Audit Checklist provides a structu
 ## 📬 Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
 
 ---
 

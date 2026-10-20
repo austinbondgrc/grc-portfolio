@@ -15,7 +15,7 @@ The documents in this folder prove the ability to translate abstract legal statu
 
 ### 1. NIS2 Incident Reporting Workflow
 
-**File:** `MT-NIS2-IRP-001_v1.2_nis2-incident-reporting-workflow.pdf`
+**File:** [`MT-NIS2-IRP-001_v1.2_nis2-incident-reporting-workflow.pdf`](MT-NIS2-IRP-001_v1.2_nis2-incident-reporting-workflow.pdf)
 
 | Field | Detail |
 | :--- | :--- |
@@ -34,7 +34,7 @@ It establishes the mandatory reporting workflow for the MunichTech incident resp
 
 ### 2. NIS-2 Betroffenheitsprüfung and BSI Registration Record
 
-**File:** `MT-NIS2-REG-001_v1.0_nis2-registration-record.pdf`
+**File:** [`MT-NIS2-REG-001_v1.0_nis2-registration-record.pdf`](MT-NIS2-REG-001_v1.0_nis2-registration-record.pdf)
 
 | Field | Detail |
 | :--- | :--- |
@@ -52,7 +52,7 @@ Records how MunichTech GmbH reached the conclusion that it is a *wichtige Einric
 
 ### 3. DSGVO Records of Processing Activities (RoPA)
 
-**File:** `MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx`
+**File:** [`MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx`](MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx)
 
 | Field | Detail |
 | :--- | :--- |
@@ -116,4 +116,4 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 **Austin Bond**  
 Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  
-[🔗 Connect on LinkedIn](https://www.linkedin.com/in/austingrc)
+[🔗 Connect on LinkedIn](https://www.linkedin.com/in/austinbondgrc)

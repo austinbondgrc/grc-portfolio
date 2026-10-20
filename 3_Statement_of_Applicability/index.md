@@ -22,7 +22,7 @@ The document in this folder demonstrates a comprehensive, audit-ready matrix ali
 
 ### 1. Statement of Applicability (SoA) — Current Release
 
-**File:** `MT-ISMS-SOA-001_v1.2_statement-of-applicability.xlsx`
+**File:** [`MT-ISMS-SOA-001_v1.2_statement-of-applicability.xlsx`](MT-ISMS-SOA-001_v1.2_statement-of-applicability.xlsx)
 
 | Field | Detail |
 | :--- | :--- |
@@ -51,7 +51,7 @@ It evaluates all 93 controls from Annex A, explicitly stating whether they are a
 
 ### 2. Statement of Applicability (SoA) — Baseline Archive
 
-**File:** `MT-ISMS-SOA-001_v1.0_statement-of-applicability.xlsx`
+**File:** [`MT-ISMS-SOA-001_v1.0_statement-of-applicability.xlsx`](MT-ISMS-SOA-001_v1.0_statement-of-applicability.xlsx)
 
 The v1.0 SoA is retained unchanged as the baseline implementation snapshot. Keeping prior versions immutable demonstrates audit-trail integrity and continual-improvement discipline. Because it is not edited, it still cites BaFin BAIT, which ceased to apply on 17 January 2025; the correction is recorded in v1.2 rather than retro-fitted to the archive.
 
@@ -98,6 +98,9 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ---
 
 ## 📥 Download Documents
+
+[📊 SoA v1.2 — Current (Excel)](MT-ISMS-SOA-001_v1.2_statement-of-applicability.xlsx){: .btn }
+[📊 SoA v1.0 — Baseline Archive (Excel)](MT-ISMS-SOA-001_v1.0_statement-of-applicability.xlsx){: .btn }
 [📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/3_Statement_of_Applicability){: .btn }
 [⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
 
@@ -106,4 +109,4 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ## 📬 Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)

@@ -22,7 +22,7 @@ Risk Register.
 ## 📄 Documents in This Folder
 
 ### 1. Information Asset Register
-`MT-ISMS-IAR-001_v1.0_asset-register.xlsx`
+[`MT-ISMS-IAR-001_v1.0_asset-register.xlsx`](MT-ISMS-IAR-001_v1.0_asset-register.xlsx)
 
 | Field | Detail |
 |---|---|
@@ -43,14 +43,14 @@ feed directly into the Risk Register calculations.
 - Regulatory flags (DSGVO and NIS2) are embedded at the asset level to instantly 
   identify systems subject to mandatory breach reporting timelines.
 
-**Rendered outputs:** `MT-ISMS-IAR-001_v1.0_asset-register.pdf` (Asset Register) and 
-`MT-ISMS-IAR-001_v1.0_classification-matrix.pdf` (Classification & Valuation Matrix), 
+**Rendered outputs:** [`MT-ISMS-IAR-001_v1.0_asset-register.pdf`](MT-ISMS-IAR-001_v1.0_asset-register.pdf) (Asset Register) and 
+[`MT-ISMS-IAR-001_v1.0_classification-matrix.pdf`](MT-ISMS-IAR-001_v1.0_classification-matrix.pdf) (Classification & Valuation Matrix), 
 for quick review without opening the workbook.
 
 ---
 
 ### 2. Risk Assessment Methodology
-`MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf`
+[`MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf`](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf)
 
 | Field | Detail |
 |---|---|
@@ -73,7 +73,7 @@ ensures risk assessments produce consistent, valid, and comparable results.
 ---
 
 ### 3. Information Security Risk Register
-`MT-ISMS-RR-001_v1.1_risk-register.xlsx`
+[`MT-ISMS-RR-001_v1.1_risk-register.xlsx`](MT-ISMS-RR-001_v1.1_risk-register.xlsx)
 
 | Field | Detail |
 |---|---|
@@ -140,4 +140,4 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 **Austin Bond**  
 Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*
-[LinkedIn](https://www.linkedin.com/in/austingrc)
+[LinkedIn](https://www.linkedin.com/in/austinbondgrc)

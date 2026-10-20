@@ -37,7 +37,7 @@ rights — is woven throughout.
 | | Associate of ISC2 — CISSP *(In Progress)* |
 | **Languages** | English (Native) · German (C1)(In Progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
-| **LinkedIn** | [linkedin.com/in/austingrc](https://linkedin.com/in/austingrc) |
+| **LinkedIn** | [linkedin.com/in/austinbondgrc](https://www.linkedin.com/in/austinbondgrc) |
 
 ---
 
