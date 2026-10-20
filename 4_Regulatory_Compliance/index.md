@@ -22,7 +22,7 @@ The documents in this folder prove the ability to translate abstract legal statu
 
 ### 1. NIS2 Incident Reporting Workflow
 
-**File:** `MT-NIS2-IRP-001_v1.0.pdf`
+**File:** `MT-NIS2-IRP-001_v1.0_nis2-incident-reporting-workflow.pdf`
 
 | Field | Detail |
 | :--- | :--- |
@@ -40,7 +40,7 @@ It establishes the mandatory reporting workflow for the MunichTech incident resp
 
 ### 2. DSGVO Records of Processing Activities (RoPA)
 
-**File:** `MT-DSGVO-RoPA-001_v1.0.xlsx`
+**File:** `MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx`
 
 | Field | Detail |
 | :--- | :--- |
@@ -81,7 +81,8 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
 └── 📁 5 — Audit & Metrics
     ├── Internal Audit Checklist            (Clause 9.2)
-    └── Management Review Agenda            (Clause 9.3)
+    ├── Management Review Agenda            (Clause 9.3)
+    └── CAP Closure Memo                    (Clause 10.1)
 ```
 
 ---

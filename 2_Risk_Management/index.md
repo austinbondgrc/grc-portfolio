@@ -29,7 +29,7 @@ Risk Register.
 ## 📄 Documents in This Folder
 
 ### 1. Information Asset Register
-`MT-ISMS-IAR-001_v1.0.xlsx`
+`MT-ISMS-IAR-001_v1.0_asset-register.xlsx`
 
 | Field | Detail |
 |---|---|
@@ -50,10 +50,14 @@ feed directly into the Risk Register calculations.
 - Regulatory flags (DSGVO and NIS2) are embedded at the asset level to instantly 
   identify systems subject to mandatory breach reporting timelines.
 
+**Rendered outputs:** `MT-ISMS-IAR-001_v1.0_asset-register.pdf` (Asset Register) and 
+`MT-ISMS-IAR-001_v1.0_classification-matrix.pdf` (Classification & Valuation Matrix), 
+for quick review without opening the workbook.
+
 ---
 
 ### 2. Risk Assessment Methodology
-`MT-ISMS-RAM-001_v1.0.pdf`
+`MT-ISMS-RAM-001_v1.0_risk-assessment-methodology.pdf`
 
 | Field | Detail |
 |---|---|
@@ -76,7 +80,7 @@ ensures risk assessments produce consistent, valid, and comparable results.
 ---
 
 ### 3. Information Security Risk Register
-`MT-ISMS-RR-001_v1.0.xlsx`
+`MT-ISMS-RR-001_v1.0_risk-register.xlsx`
 
 | Field | Detail |
 |---|---|
@@ -123,7 +127,8 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
 └── 📁 5 — Audit & Metrics
     ├── Internal Audit Checklist            (Clause 9.2)
-    └── Management Review Agenda           (Clause 9.3)
+    ├── Management Review Agenda           (Clause 9.3)
+    └── CAP Closure Memo                    (Clause 10.1)
 ```
 
 ## ⚖️ Regulatory Alignment

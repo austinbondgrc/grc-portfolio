@@ -1,7 +1,7 @@
 # 📁 5 — Audit & Metrics
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
-**Prepared by:** Austin Bond, Junior GRC Consultant
+**Prepared by:** Austin Bond, Junior GRC Professional
 
 ## 📌 Folder Overview
 
@@ -15,12 +15,12 @@ The documents in this folder demonstrate the ability to execute the critical "Ch
 
 ### 1. Internal Audit Checklist & Working Paper
 
-**File:** `MT-ISMS-AUD-001_v1.0.pdf`
+**File:** `MT-ISMS-AUD-001_v1.0_internal-audit-checklist.xlsx`
 
 | Field | Detail |
 | :--- | :--- |
 | **Framework Reference** | ISO/IEC 27001:2022 (Clause 9.2) |
-| **Format** | PDF Document (Audit Working Paper) |
+| **Format** | Excel Spreadsheet (Audit Working Paper) |
 
 **What this document does:**  
 It provides a structured, evidence-based evaluation of the ISMS controls. Rather than relying on interviews, it demands specific technical artifacts (e.g., AWS console reviews, MDM policies) to prove conformity, and establishes a formal Corrective Action Plan (CAP) tracking mechanism for identified failures.
@@ -33,7 +33,7 @@ It provides a structured, evidence-based evaluation of the ISMS controls. Rather
 
 ### 2. Management Review Agenda & Minutes
 
-**File:** `MT-ISMS-MRA-001_v1.0.pdf`
+**File:** `MT-ISMS-MRA-001_v1.0_management-review-agenda.pdf`
 
 | Field | Detail |
 | :--- | :--- |
@@ -51,7 +51,7 @@ It serves as the definitive record of executive oversight for the ISMS. It trans
 
 ### 3. Corrective Action Plan (CAP) Closure Memo
 
-**File:** `MT-ISMS-CAP-001_v1.0.pdf`
+**File:** `MT-ISMS-CAP-001_v1.0_cap-closure-memo.pdf`
 
 | Field | Detail |
 | :--- | :--- |
@@ -117,6 +117,6 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ### 📬 Contact
 
 **Austin Bond**  
-Junior GRC Consultant | ISO 27001 Provisional Implementer/Auditor, NIS2 Provisional Implementer (in progress)  
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  
 [🔗 Connect on LinkedIn](https://www.linkedin.com/in/austingrc)
 ```

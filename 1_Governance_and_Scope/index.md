@@ -28,7 +28,7 @@ wider ISMS portfolio.
 ## 📄 Documents in This Folder
 
 ### 1. ISMS Scope and Context Definition
-`munichtech_isms-scope-context_v1.0.pdf`
+`MT-ISMS-SCO-001_v1.0_scope-context.pdf`
 
 | Field | Detail |
 |---|---|
@@ -66,7 +66,7 @@ security-relevant needs and expectations.
 ---
 
 ### 2. Information Security Policy
-`munichtech_isms-infosec-policy_v1.0.pdf`
+`MT-ISMS-POL-001_v1.0_infosec-policy.pdf`
 
 | Field | Detail |
 |---|---|

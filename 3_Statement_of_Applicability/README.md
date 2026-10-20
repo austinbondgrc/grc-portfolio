@@ -17,7 +17,7 @@ This SoA is version-controlled to demonstrate continual improvement over time (I
 
 ### 1. Statement of Applicability (SoA) — Current Release
 
-**File:** `MT-ISMS-SOA-001_v1.1.xlsx`
+**File:** `MT-ISMS-SOA-001_v1.1_statement-of-applicability.xlsx`
 
 | Field | Detail |
 | :--- | :--- |
@@ -40,7 +40,7 @@ It evaluates all 93 controls from Annex A, explicitly stating whether they are a
 
 ### 2. Statement of Applicability (SoA) — Baseline Archive
 
-**File:** `MT-ISMS-SOA-001_v1.0.xlsx`
+**File:** `MT-ISMS-SOA-001_v1.0_statement-of-applicability.xlsx`
 
 | Field | Detail |
 | :--- | :--- |
@@ -95,5 +95,5 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ### 📬 Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer/Auditor, NIS2 Provisional Implementer (in progress)  
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  
 [🔗 Connect on LinkedIn](https://www.linkedin.com/in/austingrc)
