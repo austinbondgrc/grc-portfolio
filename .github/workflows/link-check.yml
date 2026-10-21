@@ -1,0 +1,122 @@
+name: link check
+
+# The site is a static Jekyll build with no link resolution at build time, and the
+# local toolchain in tools/ is deliberately not published. This workflow is therefore
+# self-contained: it waits for the Pages build of the pushed commit, then crawls the
+# deployed site and fails if any page, asset or outbound link is unreachable.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: read
+
+concurrency:
+  group: link-check
+  cancel-in-progress: true
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    env:
+      SITE_URL: https://austinbondgrc.github.io/grc-portfolio/
+    steps:
+      - name: Wait for the Pages build of this commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in $(seq 1 40); do
+            build=$(gh api "repos/${GITHUB_REPOSITORY}/pages/builds/latest" \
+                      --jq '"\(.commit) \(.status)"' 2>/dev/null || echo "unknown unknown")
+            echo "attempt ${attempt}: ${build}"
+            if [ "${build}" = "${GITHUB_SHA} built" ]; then
+              echo "Pages finished building ${GITHUB_SHA}"
+              exit 0
+            fi
+            if [ "${build}" = "${GITHUB_SHA} errored" ]; then
+              echo "::error::Pages build failed for ${GITHUB_SHA}"
+              exit 1
+            fi
+            sleep 15
+          done
+          echo "::error::timed out waiting for the Pages build of ${GITHUB_SHA}"
+          exit 1
+
+      - name: Crawl the deployed site
+        run: |
+          python3 - <<'PY'
+          import os, re, sys, urllib.error, urllib.parse, urllib.request
+          from collections import deque
+
+          BASE = os.environ.get("SITE_URL", "https://austinbondgrc.github.io/grc-portfolio/")
+          UA = {"User-Agent": "grc-portfolio-link-check/1.0"}
+          LINK = re.compile(r'(?:href|src)\s*=\s*["\']([^"\']+)["\']', re.I)
+          # LinkedIn answers 999 to automated clients; it is not a dead profile.
+          ALLOWED = {999}
+          REQUIRED = ["sitemap.xml", "robots.txt", "404.html"]
+
+          def fetch(url, method="GET"):
+              req = urllib.request.Request(url, method=method, headers=UA)
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      return r.status, r.headers.get("Content-Type", ""), r.read() if method == "GET" else b""
+              except urllib.error.HTTPError as e:
+                  return e.code, (e.headers.get("Content-Type", "") if e.headers else ""), b""
+              except Exception:
+                  return None, "", b""
+
+          # Breadth-first crawl of the same-origin HTML pages.
+          status_of, pages, targets = {}, [], {}
+          queue = deque([BASE])
+          while queue:
+              url = queue.popleft()
+              if url in status_of or not url.startswith(BASE):
+                  continue
+              status, ctype, body = fetch(url)
+              status_of[url] = status
+              if status != 200 or "html" not in ctype:
+                  continue
+              pages.append(url)
+              for raw in LINK.findall(body.decode("utf-8", "replace")):
+                  if raw.startswith(("mailto:", "javascript:", "#")):
+                      continue
+                  target = urllib.parse.urljoin(url, raw).split("#")[0]
+                  if not target:
+                      continue
+                  targets.setdefault(target, set()).add(url)
+                  if target.startswith(BASE) and target not in status_of:
+                      queue.append(target)
+
+          failures = [(u, s, "page did not return 200") for u, s in status_of.items() if s != 200]
+
+          for target in sorted(targets):
+              method = "HEAD" if target.startswith(BASE) else "GET"
+              status, _, _ = fetch(target, method)
+              if status in (403, 405, 501) or status is None:
+                  status, _, _ = fetch(target, "GET")
+              if status != 200 and status not in ALLOWED:
+                  referrers = ", ".join(sorted(p.replace(BASE, "/") or "/" for p in targets[target]))
+                  failures.append((target, status, f"referenced by {referrers}"))
+
+          for name in REQUIRED:
+              status, _, _ = fetch(BASE + name)
+              if status != 200:
+                  failures.append((BASE + name, status, "required file missing"))
+
+          # A missing path must serve 404.md, not the host's default page.
+          status, _, body = fetch(BASE + "does-not-exist-xyz/")
+          if status != 404 or b"does not exist in this portfolio" not in body:
+              failures.append((BASE + "does-not-exist-xyz/", status, "custom 404 not served"))
+
+          print(f"{len(pages)} pages crawled, {len(targets)} distinct link targets checked\n")
+
+          if failures:
+              for url, status, why in failures:
+                  print(f"::error::[{status}] {url} — {why}")
+              sys.exit(1)
+
+          print("all links reachable")
+          PY
