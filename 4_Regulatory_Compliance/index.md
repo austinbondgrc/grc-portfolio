@@ -1,11 +1,8 @@
 ---
 title: 📁 4 — Regulatory Compliance
-parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
+nav_title: Regulatory
 nav_order: 4
-has_children: true
 ---
-
-# 📁 4 — Regulatory Compliance
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Professional

@@ -1,11 +1,5 @@
 title: Austin Bond — GRC Portfolio
 description: ISO 27001:2022 ISMS Implementation — German Market Focus
-remote_theme: just-the-docs/just-the-docs
-color_scheme: dark
-search_enabled: true
-aux_links:
-  "GitHub Repo": https://github.com/austinbondgrc/grc-portfolio
-nav_sort: case_sensitive
 
 # Canonical origin. Needed for absolute URLs in the sitemap and in the 404 page's
 # relative_url links; without it Jekyll emits root-relative paths.
@@ -14,6 +8,18 @@ baseurl: /grc-portfolio
 
 plugins:
   - jekyll-sitemap
+
+# No theme. The layout, masthead and stylesheet are local (_layouts/_includes and
+# assets/css/site.css), so the site is not tied to a theme's markup or class names.
+
+# Every page gets the branded shell without repeating `layout: default` in six
+# front matters. A page that needs to opt out sets its own `layout:`.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
 
 # Tooling lives outside version control; excluded here so a local build never publishes it.
 exclude:

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- One shared definition of the brand foil gradient, used by the masthead and
+     footer marks. Kept in a hidden 0x0 sprite at the top of the document so a
+     single gradient serves both without either depending on the other's markup
+     being present, in document order, or visible. -->
+<svg class="svg-defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="abShieldFoil" gradientUnits="userSpaceOnUse" x1="4" y1="2" x2="60" y2="70.4">
+      <stop offset="0" stop-color="#E9D4A0"/>
+      <stop offset="0.45" stop-color="#D2A64E"/>
+      <stop offset="1" stop-color="#A87F33"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+{% include nav.html %}
+
+{%- assign sections = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" -%}
+{%- assign num = page.nav_order | plus: 0 -%}
+
+<main class="main" id="main">
+  <div class="wrap">
+    {%- unless page.no_header %}
+    <div class="sec-head">
+      {%- if num > 0 %}
+      <span class="sec-num" aria-hidden="true">{{ page.nav_order | prepend: "0" | slice: -2, 2 }}</span>
+      {%- endif %}
+      <h1 class="sec-title">{{ page.title }}</h1>
+    </div>
+    {%- endunless %}
+
+    <div class="prose">
+      {{ content }}
+    </div>
+
+    {%- if num > 0 %}
+    {%- comment -%}
+      Previous and next walk the same sorted list the masthead uses, so adding a
+      section to the site cannot leave the pager pointing at the wrong neighbour.
+    {%- endcomment -%}
+    {%- assign prev_item = nil -%}
+    {%- assign next_item = nil -%}
+    {%- assign found = false -%}
+    {%- for p in sections -%}
+      {%- if p.url == page.url -%}
+        {%- assign found = true -%}
+      {%- elsif found -%}
+        {%- if next_item == nil -%}{%- assign next_item = p -%}{%- endif -%}
+      {%- else -%}
+        {%- assign prev_item = p -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if prev_item or next_item %}
+    <nav class="pager" aria-label="Portfolio sections">
+      {%- if prev_item %}
+      <a class="pager__link pager__link--prev" href="{{ prev_item.url | relative_url }}">
+        <span class="pager__dir">Previous</span>
+        <span class="pager__title">{{ prev_item.nav_title | default: prev_item.title }}</span>
+      </a>
+      {%- endif %}
+      {%- if next_item %}
+      <a class="pager__link pager__link--next" href="{{ next_item.url | relative_url }}">
+        <span class="pager__dir">Next</span>
+        <span class="pager__title">{{ next_item.nav_title | default: next_item.title }}</span>
+      </a>
+      {%- endif %}
+    </nav>
+    {%- endif %}
+    {%- endif %}
+  </div>
+</main>
+
+{% include footer.html %}
+
+<script>
+(function(){
+  'use strict';
+  var burger = document.getElementById('burger');
+  var mnav = document.getElementById('mnav');
+  if (!burger || !mnav) return;
+
+  function setOpen(open){
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if (open) {
+      mnav.hidden = false;
+      /* Force a reflow so the opacity transition runs from the hidden state. */
+      void mnav.offsetWidth;
+      mnav.classList.add('is-open');
+    } else {
+      mnav.classList.remove('is-open');
+      mnav.hidden = true;
+    }
+    document.documentElement.style.overflow = open ? 'hidden' : '';
+  }
+
+  burger.addEventListener('click', function(){
+    setOpen(burger.getAttribute('aria-expanded') !== 'true');
+  });
+  mnav.addEventListener('click', function(e){
+    if (e.target.closest('a')) setOpen(false);
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && burger.getAttribute('aria-expanded') === 'true') setOpen(false);
+  });
+})();
+</script>
+</body>
+</html>

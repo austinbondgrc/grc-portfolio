@@ -1,11 +1,8 @@
 ---
 title: 📁 3 — Statement of Applicability
-parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
+nav_title: SoA
 nav_order: 3
-has_children: true
 ---
-
-# 📁 3 — Statement of Applicability
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Professional

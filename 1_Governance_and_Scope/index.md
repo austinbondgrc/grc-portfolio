@@ -1,11 +1,8 @@
 ---
 title: 📁 1 — Governance & Scope
-parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
+nav_title: Governance
 nav_order: 1
-has_children: true
 ---
-
-# 📁 1 — Governance & Scope
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 Prepared by: Austin Bond, Junior GRC Professional

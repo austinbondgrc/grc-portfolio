@@ -1,0 +1,37 @@
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{%- if page.url == "/" %}
+<title>{{ site.title }}</title>
+{%- else %}
+<title>{{ page.title | escape }} | {{ site.title }}</title>
+{%- endif %}
+<meta name="description" content="{{ site.description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Austin Bond">
+<meta name="theme-color" content="#01132A">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:description" content="{{ site.description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:locale" content="en_GB">
+
+<!-- The brand mark as a favicon: the same shield path, flat gold rather than
+     the foil gradient, because a gradient is not legible at 16px. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 72'%3E%3Cpath d='M32 4.2 L58 14 V41 C58 55 46.6 64.6 32 68.6 C17.4 64.6 6 55 6 41 V14 Z' fill='none' stroke='%23D2A64E' stroke-width='6' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+<!-- Marks the document as script-capable before first paint, so the mobile
+     navigation falls back to a wrapping row of links instead of a drawer that
+     nothing can open. -->
+<script>document.documentElement.classList.add('js');</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Public+Sans:ital,wght@0,300..700;1,300..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>

@@ -82,7 +82,9 @@ jobs:
                   continue
               pages.append(url)
               for raw in LINK.findall(body.decode("utf-8", "replace")):
-                  if raw.startswith(("mailto:", "javascript:", "#")):
+                  # data: is the inline SVG favicon; urljoin would hand urllib a
+                  # scheme it cannot open.
+                  if raw.startswith(("mailto:", "javascript:", "data:", "#")):
                       continue
                   target = urllib.parse.urljoin(url, raw).split("#")[0]
                   if not target:
