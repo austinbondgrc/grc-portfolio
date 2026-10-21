@@ -500,8 +500,19 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   border-bottom:1px solid var(--rule-hair);
   color:var(--text-soft);
   vertical-align:top;
+  /* `anywhere` is what lets a three-column table shrink into a phone instead of
+     scrolling the page sideways. On its own it also lets the label column
+     collapse to a few characters and split its own labels ("Compan|y",
+     "Headqua|rters"), because a break-anywhere minimum is all the layout
+     algorithm needs. The floor below is what stops that. */
   overflow-wrap:anywhere;
 }
+/* The label column in every table here — Field, Document, Framework,
+   Regulation — carries a plain word or two rather than a long token, so it can
+   be given a floor: wide enough for the longest label word at the table's
+   .88rem, narrow enough to leave a phone's reading column the majority of the
+   width. Cells that still cannot fit a word break it rather than overflow. */
+.prose tbody td:first-child{min-width:8.5rem}
 /* Guarded: on a touch screen `:hover` sticks after the tap and leaves one row
    washed out until the next tap. */
 @media (hover:hover){
@@ -669,6 +680,10 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
      short rows a few dozen pixels shy of the container's right edge. */
   .prose table{font-size:.84rem}
   .prose thead th,.prose tbody td{white-space:normal;overflow-wrap:anywhere}
+  /* Eight and a half rem of label is a bigger share of a phone than of the
+     desktop column, so on the narrowest screens it drops to seven to keep the
+     reading column wider than the label column. */
+  .prose tbody td:first-child{min-width:7rem}
   .pager{flex-direction:column}
   .pager__link{min-width:0}
   .pager__link--next{margin-left:0;text-align:left}
