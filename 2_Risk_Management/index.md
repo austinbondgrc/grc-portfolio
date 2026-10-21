@@ -1,11 +1,11 @@
 ---
-title: 📁 Risk Management
+title: 📁 2 — Risk Management
 parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
 nav_order: 2
 has_children: true
 ---
 
-# Risk Management
+# 📁 2 — Risk Management
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 Prepared by: Austin Bond, Junior GRC Professional
