@@ -64,7 +64,8 @@ jobs:
                   with urllib.request.urlopen(req, timeout=30) as r:
                       return r.status, r.headers.get("Content-Type", ""), r.read() if method == "GET" else b""
               except urllib.error.HTTPError as e:
-                  return e.code, (e.headers.get("Content-Type", "") if e.headers else ""), b""
+                  # Keep the body: a 404 carries the page that is served for it.
+                  return e.code, (e.headers.get("Content-Type", "") if e.headers else ""), e.read()
               except Exception:
                   return None, "", b""
 
