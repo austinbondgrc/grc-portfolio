@@ -1,5 +1,5 @@
 ---
-title: 📁 3 — Statement of Applicability
+title: Statement of Applicability
 nav_title: SoA
 nav_order: 3
 ---

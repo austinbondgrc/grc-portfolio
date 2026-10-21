@@ -1,5 +1,5 @@
 ---
-title: 📁 1 — Governance & Scope
+title: Governance & Scope
 nav_title: Governance
 nav_order: 1
 ---

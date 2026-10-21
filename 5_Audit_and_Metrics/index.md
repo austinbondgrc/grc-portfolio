@@ -1,5 +1,5 @@
 ---
-title: 📁 5 — Audit & Metrics
+title: Audit & Metrics
 nav_title: Audit
 nav_order: 5
 ---

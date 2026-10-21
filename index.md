@@ -1,5 +1,5 @@
 ---
-title: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
+title: Governance, Risk & Compliance (GRC) Portfolio
 nav_title: Overview
 nav_order: 0
 permalink: /

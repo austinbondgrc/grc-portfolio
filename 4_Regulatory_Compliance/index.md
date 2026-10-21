@@ -1,5 +1,5 @@
 ---
-title: 📁 4 — Regulatory Compliance
+title: Regulatory Compliance
 nav_title: Regulatory
 nav_order: 4
 ---

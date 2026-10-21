@@ -1,5 +1,5 @@
 ---
-title: 📁 2 — Risk Management
+title: Risk Management
 nav_title: Risk
 nav_order: 2
 ---
