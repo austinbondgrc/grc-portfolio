@@ -5,7 +5,9 @@ nav_order: 0
 permalink: /
 ---
 
-MunichTech GmbH | ISO 27001:2022 ISMS Implementation
+<!-- The pipe is escaped: kramdown reads a bare `|` line as a table row. -->
+
+MunichTech GmbH \| ISO 27001:2022 ISMS Implementation
 {: .subtitle}
 
 > Prepared by: **Austin Bond** — Junior GRC Professional  
