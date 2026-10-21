@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://austinbondgrc.github.io/grc-portfolio/sitemap.xml

@@ -6,6 +6,15 @@ search_enabled: true
 aux_links:
   "GitHub Repo": https://github.com/austinbondgrc/grc-portfolio
 nav_sort: case_sensitive
+
+# Canonical origin. Needed for absolute URLs in the sitemap and in the 404 page's
+# relative_url links; without it Jekyll emits root-relative paths.
+url: https://austinbondgrc.github.io
+baseurl: /grc-portfolio
+
+plugins:
+  - jekyll-sitemap
+
 # Tooling lives outside version control; excluded here so a local build never publishes it.
 exclude:
   - tools/
