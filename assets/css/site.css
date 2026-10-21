@@ -47,7 +47,11 @@
   --s6:clamp(2rem,5vw,3rem);
   --s7:clamp(3rem,7vw,4.5rem);
 
-  --wrap:74rem;
+  /* The page column and the reading measure inside it. 44rem measures out at
+     roughly 73 characters of body text: short enough that the eye finds the
+     next line without hunting, wide enough for the three-column tables. */
+  --wrap:60rem;
+  --measure:44rem;
   --gutter:clamp(1.25rem,5vw,3.5rem);
 
   --ease:cubic-bezier(.22,.61,.36,1);
@@ -74,8 +78,8 @@ body{
   -moz-osx-font-smoothing:grayscale;
   /* Deliberately no overflow-x:hidden here: on body it turns the body into a
      scroll container, and the sticky masthead would then stick to a box that
-     never scrolls. Nothing on the page is wider than the viewport, and the two
-     things that can be (tables, code) get their own scroll containers. */
+     never scrolls. Nothing on the page is wider than the viewport: code blocks
+     scroll on their own, and the tables wrap rather than overflow. */
 }
 img{max-width:100%;display:block}
 svg{display:block}
@@ -119,10 +123,13 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   padding-inline:var(--gutter);
 }
 .main{padding-block:clamp(2.25rem,5vw,3.75rem) var(--s7)}
-/* Wide enough for the four-column control tables, narrow enough to read.  The
-   page header and the pager share the same column so their rules line up with
-   the text rather than running out to the masthead's width. */
-.sec-head,.prose,.pager{max-width:62rem}
+/* One measured column for the header, the prose and the pager, centred in the
+   wrap, so every rule on the page lines up with the text instead of running
+   out to the masthead's width. */
+.sec-head,.prose,.pager{
+  max-width:var(--measure);
+  margin-inline:auto;
+}
 
 /* ==========================================================================
    3. MASTHEAD
@@ -204,7 +211,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .nav__link[aria-current="page"]{color:var(--gold)}
 .nav__link[aria-current="page"]::after{transform:scaleX(1)}
 .nav__idx{
-  font-size:.62rem;
+  font-size:.66rem;
   font-weight:600;
   letter-spacing:.1em;
   font-variant-numeric:tabular-nums;
@@ -217,8 +224,12 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   display:none;
   flex-direction:column;
   justify-content:center;
+  align-items:center;
   gap:5px;
-  padding:.6rem .55rem;
+  /* 44px square: the minimum comfortable touch target. The border makes the
+     control findable without relying on a hover state. */
+  width:44px;
+  height:44px;
   border:1px solid var(--rule-hair);
   border-radius:2px;
   flex:none;
@@ -337,7 +348,15 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
    per-element margins, which is what keeps tables and code blocks sitting on
    the same baseline grid as paragraphs.
    ========================================================================== */
+/* Element defaults are neutralised at zero specificity with :where(), because a
+   plain `.prose p{margin:0}` is a class plus a type and therefore out-ranks
+   `.prose > * + *` — which silently flattened every paragraph, table and list
+   hard against the one above it. */
+.prose :where(p,ul,ol,dl,table,pre,blockquote,figure){margin:0}
+
+/* One rule for the whole flow, so paragraphs, tables and code share a rhythm. */
 .prose > * + *{margin-top:var(--s3)}
+.prose li > * + *{margin-top:.5em}
 
 .prose h1,.prose h2,.prose h3,.prose h4{
   font-family:var(--serif);
@@ -348,16 +367,15 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   margin:0;
 }
 .prose h1{font-size:var(--step-3)}
+/* No rule of its own: the documents already separate their sections with `---`,
+   and adding a top border here put two hairlines 48px apart. */
 .prose h2{
   font-size:var(--step-2);
-  margin-top:var(--s6);
-  padding-top:var(--s4);
-  border-top:1px solid var(--rule-hair);
+  margin-top:var(--s5);
 }
 .prose h3{font-size:var(--step-1);margin-top:var(--s5)}
 .prose h4{font-size:var(--step-0);margin-top:var(--s4);color:var(--gold-bright)}
 
-.prose p{margin:0}
 .prose strong{font-weight:600;color:var(--text)}
 
 /* The line under a page title. A heading would skip h2 in the outline, and
@@ -381,7 +399,7 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
 }
 .prose a:hover{color:var(--gold);text-decoration-color:var(--gold)}
 
-.prose ul,.prose ol{margin:0;padding-left:0}
+.prose ul,.prose ol{padding-left:0}
 .prose li{position:relative}
 .prose li + li{margin-top:.4rem}
 .prose ul{list-style:none}
@@ -407,7 +425,6 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
 .prose ul ul,.prose ol ul,.prose ul ol,.prose ol ol{margin-top:.4rem}
 
 .prose blockquote{
-  margin:0;
   padding:.15rem 0 .15rem var(--s4);
   border-left:1px solid var(--rule-strong);
   color:var(--text-soft);
@@ -430,7 +447,6 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   overflow-wrap:anywhere;
 }
 .prose pre{
-  margin:0;
   padding:var(--s4);
   background:rgba(4,24,58,.72);
   border:1px solid var(--rule-hair);
@@ -444,6 +460,9 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   background:none;
   border:0;
   padding:0;
+  /* No second reduction: the block is already smaller than body text, and
+     0.88em on top of that left the folder tree at 11.8px. */
+  font-size:1em;
   color:var(--text-soft);
   /* The inline rule's breaking must not reach a block: the folder tree in the
      index is drawn with box characters and only survives unwrapped. */
@@ -454,7 +473,6 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
 .prose table{
   width:100%;
   border-collapse:collapse;
-  margin:0;
   font-size:.88rem;
 }
 .prose caption{
@@ -467,22 +485,28 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
 .prose thead th{
   text-align:left;
   vertical-align:bottom;
-  padding:.55rem .75rem;
+  padding:.6rem .75rem;
   border-bottom:1px solid var(--rule-strong);
-  font-size:.68rem;
+  /* Small caps at 10.9px were a squint on a phone; 11.9px with less tracking
+     holds the same label hierarchy and stays legible. */
+  font-size:.72rem;
   font-weight:600;
-  letter-spacing:.12em;
+  letter-spacing:.1em;
   text-transform:uppercase;
   color:var(--gold);
 }
 .prose tbody td{
-  padding:.65rem .75rem;
+  padding:.7rem .75rem;
   border-bottom:1px solid var(--rule-hair);
   color:var(--text-soft);
   vertical-align:top;
   overflow-wrap:anywhere;
 }
-.prose tbody tr:hover{background:var(--wash)}
+/* Guarded: on a touch screen `:hover` sticks after the tap and leaves one row
+   washed out until the next tap. */
+@media (hover:hover){
+  .prose tbody tr:hover{background:var(--wash)}
+}
 .prose img{border:1px solid var(--rule-hair)}
 
 /* ==========================================================================
@@ -496,8 +520,8 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   gap:.55rem;
   /* Buttons sit inline in one paragraph, so the gap is a margin, not a flex
      gap on the paragraph. */
-  margin:0 .5rem .5rem 0;
-  padding:.7rem 1.15rem;
+  margin:0 .5rem .75rem 0;
+  padding:.82rem 1.2rem;
   border:1px solid var(--rule-strong);
   border-radius:2px;
   font-size:.86rem;
@@ -601,27 +625,37 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   color:var(--gold);
 }
 .foot__sub{
-  font-size:.62rem;
+  font-size:.68rem;
   font-weight:520;
   letter-spacing:.12em;
   text-transform:uppercase;
   color:var(--gold-deep);
 }
 .foot__right{display:grid;gap:.5rem;justify-items:end;text-align:right}
-.foot__links{display:flex;gap:1rem;flex-wrap:wrap;justify-content:flex-end}
+.foot__links{display:flex;gap:.25rem 1.1rem;flex-wrap:wrap;justify-content:flex-end}
 .foot__links a{
+  /* The footer's only tap targets: a 44px box around a 12px line, with the
+     underline drawn tight to the text rather than around the whole box. */
+  display:inline-flex;
+  align-items:center;
+  min-height:44px;
   font-size:.78rem;
   color:var(--text-soft);
-  border-bottom:1px solid transparent;
-  transition:color .2s var(--ease),border-color .2s var(--ease);
+  text-decoration:underline;
+  text-decoration-color:transparent;
+  text-decoration-thickness:1px;
+  text-underline-offset:.22em;
+  transition:color .2s var(--ease),text-decoration-color .2s var(--ease);
 }
-.foot__links a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+.foot__links a:hover{color:var(--gold);text-decoration-color:var(--gold)}
 .foot__legal{margin:0;font-size:.75rem;color:var(--text-dim)}
 
 /* ==========================================================================
    10. RESPONSIVE
    ========================================================================== */
-@media (max-width:1080px){
+/* Six section names plus the brand need about 700px, well under the desktop
+   column, so the drawer takes over earlier than the old 1080px breakpoint. */
+@media (max-width:880px){
   html.js .nav__links{display:none}
   html.js .burger{display:flex}
 }
@@ -629,17 +663,26 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   .foot__inner{align-items:flex-start}
   .foot__right{justify-items:start;text-align:left}
   .foot__links{justify-content:flex-start}
-  /* A four-column control table cannot fit a phone; let it scroll on its own
-     rather than forcing the whole page sideways. */
-  .prose table{display:block;overflow-x:auto}
-  .prose thead th,.prose tbody td{white-space:normal}
+  /* Every table here is two or three columns and wraps inside 280px, so the
+     table keeps its layout. `display:block` was tried first: it lets the table
+     scroll, but the anonymous table it creates sizes to content and leaves
+     short rows a few dozen pixels shy of the container's right edge. */
+  .prose table{font-size:.84rem}
+  .prose thead th,.prose tbody td{white-space:normal;overflow-wrap:anywhere}
   .pager{flex-direction:column}
   .pager__link{min-width:0}
   .pager__link--next{margin-left:0;text-align:left}
 }
 @media (max-width:520px){
+  /* A shorter bar keeps the sticky masthead from eating a phone's viewport. */
+  .nav__inner{min-height:3.5rem;padding-block:.5rem}
+  .brand__mark{width:22px;height:24px}
   .brand__sub{display:none}
-  .sec-head{flex-wrap:wrap;gap:.5rem}
+  .mnav{padding-top:4.5rem}
+  .sec-head{gap:.6rem;padding-bottom:var(--s3);margin-bottom:var(--s5)}
+  .prose pre{padding:var(--s3);font-size:.78rem}
+  .prose blockquote{padding-left:var(--s3)}
+  .prose thead th,.prose tbody td{padding-inline:.55rem}
 }
 
 /* ==========================================================================
