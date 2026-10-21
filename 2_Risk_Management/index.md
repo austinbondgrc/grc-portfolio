@@ -121,7 +121,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
 ├── 📁 4 — Regulatory Compliance
 │   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§ 33 BSIG)
+│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
 │   └── DSGVO Records of Processing        (DSGVO Art. 30)
 │
 └── 📁 5 — Audit & Metrics

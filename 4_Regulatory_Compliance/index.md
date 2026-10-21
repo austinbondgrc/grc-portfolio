@@ -19,13 +19,13 @@ The documents in this folder prove the ability to translate abstract legal statu
 
 ### 1. NIS2 Incident Reporting Workflow
 
-**File:** [`MT-NIS2-IRP-001_v1.2_nis2-incident-reporting-workflow.pdf`](MT-NIS2-IRP-001_v1.2_nis2-incident-reporting-workflow.pdf)
+**File:** [`MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf`](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf)
 
 | Field | Detail |
 | :--- | :--- |
 | **Framework Reference** | NIS2 Art. 23 / § 32 BSIG |
 | **Format** | PDF Document (Standard Operating Procedure) |
-| **Version** | 1.2 (citation correction) |
+| **Version** | 1.3 (entity classification correction) |
 
 **What this document does:**  
 It establishes the mandatory reporting workflow for the MunichTech incident response team. It defines exactly what constitutes a "Significant Incident" and outlines the strict timeline for notifying the German Federal Office for Information Security (BSI).
@@ -39,20 +39,23 @@ It establishes the mandatory reporting workflow for the MunichTech incident resp
 
 ### 2. NIS-2 Betroffenheitsprüfung and BSI Registration Record
 
-**File:** [`MT-NIS2-REG-001_v1.0_nis2-registration-record.pdf`](MT-NIS2-REG-001_v1.0_nis2-registration-record.pdf)
+**File:** [`MT-NIS2-REG-001_v1.1_nis2-registration-record.pdf`](MT-NIS2-REG-001_v1.1_nis2-registration-record.pdf)
 
 | Field | Detail |
 | :--- | :--- |
-| **Framework Reference** | § 28(2) BSIG (Anlage 1) / § 33 BSIG (NIS2 Art. 27) |
+| **Framework Reference** | § 28(2) BSIG (Anlage 1, Nr. 6.1.4) / §§ 33, 34 BSIG (NIS2 Art. 27) |
 | **Format** | PDF Document (Evidence Record) |
+| **Version** | 1.1 (entity-type and § 34 correction) |
 
 **What this document does:**  
-Records how MunichTech GmbH reached the conclusion that it is a *wichtige Einrichtung* — the sector test against Anlage 1, the establishment test, and the size arithmetic — and then records the registration it submitted to the BSI under § 33 BSIG, field by field.
+Records how MunichTech GmbH reached the conclusion that it is a *wichtige Einrichtung* — the sector test against Anlage 1, the establishment test, and the size arithmetic — and then records the registration it submitted to the BSI under § 33 BSIG and the extended submission under § 34 BSIG, field by field.
 
 **Key consulting decisions:**
 
 *   **Written, not assumed:** The BSIG attaches obligations automatically once an entity is in scope; it does not wait for the BSI to certify anything. A dated, approved self-assessment is the only artefact that can still be defended two years later.
 *   **The classification corrected in public:** The record withdraws the earlier Annex II position outright, explains why it was wrong — Annex II covers consumer digital services (marketplaces, search engines, social networks), none of which MunichTech provides — and why Anlage 1, Sektor 6 is the correct home.
+*   **Entity type corrected, not just the annex:** Within Sektor 6 the record originally cited an Einrichtungsart that the statute does not contain ("IKT-Dienstleistungsmanagement (B2B)"). Version 1.1 replaces it with Anlage 1 Nr. 6.1.4 (Anbieter von Cloud-Computing-Diensten), justifies that choice against the § 2 Nr. 4 BSIG definition, and records the separate rejection of the managed ICT service manager (Nr. 6.1.10) and managed security service provider (Nr. 6.1.11) entity types.
+*   **Two registration duties, not one:** The record treats § 33 BSIG and § 34 BSIG as cumulative rather than alternative, tracks the two different change clocks (§ 33(5) — two weeks; § 34(2) — three months), and records § 30(3) BSIG, under which the NIS2 Art. 21(5) implementing act prevails over the baseline measures once it applies.
 *   **No simulated BSI letter:** Registration is evidenced through internal evidence IDs rather than a reproduced BSI confirmation that does not exist. Section 10 of the record states exactly what it does and does not prove.
 
 ### 3. DSGVO Records of Processing Activities (RoPA)
@@ -94,7 +97,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
 ├── 📁 4 — Regulatory Compliance              <-- YOU ARE HERE
 │   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§ 33 BSIG)
+│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
 │   └── DSGVO Records of Processing         (DSGVO Art. 30)
 │
 └── 📁 5 — Audit & Metrics
@@ -110,7 +113,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 | Regulation | Relevance to This Folder |
 | :--- | :--- |
 | **EU NIS2 Directive** | Fulfills Article 23 obligations for reporting significant cyber threats and incidents to national competent authorities. |
-| **BSIG (BSI-Gesetz)** | German implementation of NIS2 as amended by the NIS-2-Umsetzungsgesetz (BGBl. 2025 I Nr. 301). Supplies the registration duty (§ 33), the reporting duty (§ 32) and the management-accountability duty (§ 38). |
+| **BSIG (BSI-Gesetz)** | German implementation of NIS2 as amended by the NIS-2-Umsetzungsgesetz (BGBl. 2025 I Nr. 301). Supplies the reporting duty (§ 32), the registration duty (§ 33) together with the extended data set for the entity types in § 60(1) sentence 1 (§ 34), the management-accountability duty (§ 38), and the precedence of the Art. 21(5) implementing act over the baseline risk-management measures (§ 30(3)). |
 | **DORA (Reg. (EU) 2022/2554)** | Client flow-down basis for notifying enterprise banking clients of an incident. Has applied since 17 January 2025 in place of BAIT, and is cited alongside § 32 BSIG and DSGVO Art. 33 in the notification-recipients table. |
 | **DSGVO / GDPR** | Satisfies the mandatory requirement of Article 30 to maintain a written record of processing activities, which is the primary document requested during a BayLDA privacy audit. |
 | **ISO/IEC 27001:2022** | Satisfies Annex A Control 5.31 (Legal, statutory, regulatory and contractual requirements) and 5.5 (Contact with authorities). |
@@ -119,10 +122,10 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ## 📥 Download Documents
 
-[📄 Incident Reporting Workflow — PDF](MT-NIS2-IRP-001_v1.2_nis2-incident-reporting-workflow.pdf){: .btn }
-[📝 Incident Reporting Workflow — Word](MT-NIS2-IRP-001_v1.2_nis2-incident-reporting-workflow.docx){: .btn }
-[📄 NIS-2 Registration Record — PDF](MT-NIS2-REG-001_v1.0_nis2-registration-record.pdf){: .btn }
-[📝 NIS-2 Registration Record — Word](MT-NIS2-REG-001_v1.0_nis2-registration-record.docx){: .btn }
+[📄 Incident Reporting Workflow — PDF](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf){: .btn }
+[📝 Incident Reporting Workflow — Word](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.docx){: .btn }
+[📄 NIS-2 Registration Record — PDF](MT-NIS2-REG-001_v1.1_nis2-registration-record.pdf){: .btn }
+[📝 NIS-2 Registration Record — Word](MT-NIS2-REG-001_v1.1_nis2-registration-record.docx){: .btn }
 [📊 DSGVO RoPA — Excel](MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx){: .btn }
 [📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/4_Regulatory_Compliance){: .btn }
 [⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }

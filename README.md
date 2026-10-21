@@ -50,7 +50,7 @@ rights — is woven throughout.
 | **Headquarters** | Munich, Bavaria, Germany |
 | **Cloud Infrastructure** | AWS Frankfurt Region (eu-central-1) |
 | **Headcount** | 50 employees |
-| **Compliance Drivers** | ISO 27001:2022 (enterprise client requirement), EU NIS2 Directive (wichtige Einrichtung (§ 28(2) BSIG, Anlage 1)), DSGVO, DORA (client flow-down, Reg. (EU) 2022/2554) |
+| **Compliance Drivers** | ISO 27001:2022 (enterprise client requirement), EU NIS2 Directive (wichtige Einrichtung — § 28(2) BSIG, Anlage 1 Nr. 6.1.4), DSGVO, DORA (client flow-down, Reg. (EU) 2022/2554) |
 | **Key Risk** | Handling confidential financial data for Tier-1 German banking clients |
 
 ---
@@ -60,7 +60,7 @@ rights — is woven throughout.
 | Framework | Application |
 |---|---|
 | **ISO/IEC 27001:2022** | Primary ISMS framework — full implementation lifecycle |
-| **EU NIS2 Directive** | Obligations as a wichtige Einrichtung — § 30 BSIG measures, § 32 BSIG incident reporting, § 38 BSIG executive accountability |
+| **EU NIS2 Directive** | Obligations as a wichtige Einrichtung — registration and the extended data set under §§ 33 and 34 BSIG, § 30 BSIG measures (with the Art. 21(5) implementing act prevailing under § 30(3)), § 32 BSIG incident reporting, § 38 BSIG executive accountability |
 | **DSGVO / GDPR** | Data processing compliance — RoPA, AVV, BayLDA notification obligations |
 | **BSI IT-Grundschutz** | Supplementary German federal implementation guidance — OPS.2.2, APP.3.1 |
 | **KWG / DORA** | Client-imposed BaFin regulatory expectations — DORA (Reg. (EU) 2022/2554) has applied since 17 January 2025, replacing BAIT |
@@ -86,7 +86,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
 ├── 📁 4 — Regulatory Compliance
 │   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§ 33 BSIG)
+│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
 │   └── DSGVO Records of Processing         (DSGVO Art. 30)
 │
 └── 📁 5 — Audit & Metrics
@@ -108,8 +108,10 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 The foundational governance layer. The Scope Document defines the precise ISMS 
 boundary including AWS Shared Responsibility Model articulation, Betriebsrat 
-stakeholder identification, and NIS-2 wichtige Einrichtung classification confirmed 
-against the BSI NIS2-Betroffenheitsprüfung self-assessment criteria. The 
+stakeholder identification, and NIS-2 wichtige Einrichtung classification 
+(Anlage 1 Nr. 6.1.4, Anbieter von Cloud-Computing-Diensten) confirmed against the 
+BSI NIS2-Betroffenheitsprüfung self-assessment criteria, with the rejection of 
+the adjacent managed-service entity types recorded. The 
 Information Security Policy establishes the board-level mandate referencing 
 § 38 BSIG personal executive liability.
 
@@ -150,7 +152,7 @@ closely and the artifact that demonstrates the depth of control design thinking.
 | Document | Reference | Framework |
 |---|---|---|
 | NIS2 Incident Reporting Workflow | MT-NIS2-IRP-001 | § 32 BSIG |
-| NIS-2 Betroffenheitsprüfung and BSI Registration Record | MT-NIS2-REG-001 | § 33 BSIG |
+| NIS-2 Betroffenheitsprüfung and BSI Registration Record | MT-NIS2-REG-001 | §§ 33, 34 BSIG |
 | DSGVO Records of Processing Activities (RoPA) | MT-DSGVO-RoPA-001 | DSGVO Art. 30 |
 
 German-market regulatory compliance artifacts. The NIS2 Incident Reporting 
@@ -158,7 +160,9 @@ Workflow documents the mandatory 24-hour early warning and 72-hour notification
 process to BSI under § 32 BSIG, including escalation paths and executive 
 sign-off requirements under § 38 BSIG. The Registration Record evidences the 
 Betroffenheitsprüfung behind the entity's scope classification and the 
-registration it filed under § 33 BSIG. The DSGVO RoPA documents all processing 
+registration and extended submission it filed under §§ 33 and 34 BSIG, including 
+the correction of the entity type to Anlage 1 Nr. 6.1.4 and the two statutory 
+change clocks in § 33(5) and § 34(2). The DSGVO RoPA documents all processing 
 activities, lawful bases, data categories, retention schedules, and processor 
 relationships (Auftragsverarbeiter / AVV) in accordance with Article 30.
 

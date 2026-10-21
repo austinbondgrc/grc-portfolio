@@ -25,13 +25,13 @@ wider ISMS portfolio.
 ## 📄 Documents in This Folder
 
 ### 1. ISMS Scope and Context Definition
-[`MT-ISMS-SCO-001_v1.2_scope-context.pdf`](MT-ISMS-SCO-001_v1.2_scope-context.pdf)
+[`MT-ISMS-SCO-001_v1.3_scope-context.pdf`](MT-ISMS-SCO-001_v1.3_scope-context.pdf)
 
 | Field | Detail |
 |---|---|
 | **Document Reference** | MT-ISMS-SCO-001 |
 | **ISO 27001:2022 Clauses** | 4.1, 4.2, 4.3 |
-| **Version** | 1.2 |
+| **Version** | 1.3 |
 | **Status** | Final |
 
 **What this document does:**
@@ -50,9 +50,18 @@ security-relevant needs and expectations.
 - Interested Parties table (Clause 4.2) includes the **Betriebsrat (Works 
   Council)** as a formal stakeholder — a German legal requirement under 
   BetrVG § 87 that generic English-language templates consistently miss
-- NIS2 entity classification confirmed as **wichtige Einrichtung (§ 28(2) BSIG, Anlage 1)** with 
-  applicability verified against the BSI NIS2-Betroffenheitsprüfung 
-  self-assessment criteria
+- NIS2 entity classification confirmed as **wichtige Einrichtung — § 28(2) BSIG,
+  Anlage 1 Nr. 6.1.4 (Anbieter von Cloud-Computing-Diensten)** — with applicability
+  verified against the BSI NIS2-Betroffenheitsprüfung self-assessment criteria.
+  The manager of managed ICT services and the managed security service provider
+  entity types (Anlage 1 Nr. 6.1.10 and 6.1.11) were each tested and rejected:
+  MunichTech operates a multi-tenant analytics platform rather than taking over a
+  client's ICT operations, so the service fits the cloud-computing definition in
+  § 2 Nr. 4 BSIG instead
+- NIS2 registration duty recorded as **cumulative, not alternative**: § 33 BSIG
+  for the registration itself and § 34 BSIG for the extended data set, with
+  § 60(1) BSIG central BSI competence and the two statutory change clocks in
+  § 33(5) (two weeks) and § 34(2) (three months)
 - Risk Appetite Statement included as a foundational decision-making anchor for 
   the Risk Register — absent from the original template and added based on 
   audit experience
@@ -123,7 +132,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
 ├── 📁 4 — Regulatory Compliance
 │   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§ 33 BSIG)
+│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
 │   └── DSGVO RoPA Template                 (DSGVO Art. 30)
 │
 └── 📁 5 — Audit & Metrics
@@ -138,7 +147,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 | Regulation | Relevance to This Folder |
 |---|---|
 | **ISO/IEC 27001:2022** | Clauses 4.1–4.3 (Scope); 5.1–5.3 (Policy & Leadership) |
-| **EU NIS2 Directive** | § 38 BSIG (Management accountability); § 30 BSIG (Risk-management measures); Anlage 1 (wichtige Einrichtung classification) |
+| **EU NIS2 Directive** | § 38 BSIG (Management accountability); § 30 BSIG (Risk-management measures, subject to the Art. 21(5) implementing act under § 30(3)); §§ 33, 34 BSIG (Registration and extended data set); Anlage 1 Nr. 6.1.4 (wichtige Einrichtung classification) |
 | **DSGVO / GDPR** | Processing context documented; BayLDA identified as regulatory stakeholder |
 | **BSI IT-Grundschutz** | Referenced as supplementary implementation guidance |
 | **BetrVG** | § 87 (Co-determination); § 80 (Information rights); § 94 (Personnel data) |
@@ -172,8 +181,8 @@ is coincidental.
 
 ## 📥 Download Documents
 
-[📄 Scope & Context — PDF](MT-ISMS-SCO-001_v1.2_scope-context.pdf){: .btn }
-[📝 Scope & Context — Word](MT-ISMS-SCO-001_v1.2_scope-context.docx){: .btn }
+[📄 Scope & Context — PDF](MT-ISMS-SCO-001_v1.3_scope-context.pdf){: .btn }
+[📝 Scope & Context — Word](MT-ISMS-SCO-001_v1.3_scope-context.docx){: .btn }
 [📄 InfoSec Policy — PDF](MT-ISMS-POL-001_v1.2_infosec-policy.pdf){: .btn }
 [📝 InfoSec Policy — Word](MT-ISMS-POL-001_v1.2_infosec-policy.docx){: .btn }
 [📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/1_Governance_and_Scope){: .btn }
