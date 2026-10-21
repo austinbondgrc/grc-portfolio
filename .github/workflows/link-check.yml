@@ -54,6 +54,8 @@ jobs:
           BASE = os.environ.get("SITE_URL", "https://austinbondgrc.github.io/grc-portfolio/")
           UA = {"User-Agent": "grc-portfolio-link-check/1.0"}
           LINK = re.compile(r'(?:href|src)\s*=\s*["\']([^"\']+)["\']', re.I)
+          # preconnect/dns-prefetch hints name an origin, not a fetchable resource.
+          HINT = re.compile(r'<link[^>]+rel\s*=\s*["\'](?:preconnect|dns-prefetch)["\'][^>]*>', re.I)
           # LinkedIn answers 999 to automated clients; it is not a dead profile.
           ALLOWED = {999}
           REQUIRED = ["sitemap.xml", "robots.txt", "404.html"]
@@ -81,7 +83,8 @@ jobs:
               if status != 200 or "html" not in ctype:
                   continue
               pages.append(url)
-              for raw in LINK.findall(body.decode("utf-8", "replace")):
+              text = HINT.sub("", body.decode("utf-8", "replace"))
+              for raw in LINK.findall(text):
                   # data: is the inline SVG favicon; urljoin would hand urllib a
                   # scheme it cannot open.
                   if raw.startswith(("mailto:", "javascript:", "data:", "#")):
