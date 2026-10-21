@@ -1,11 +1,11 @@
 ---
-title: 📁 Regulatory Compliance
+title: 📁 4 — Regulatory Compliance
 parent: 🛡️ Governance, Risk & Compliance (GRC) Portfolio
 nav_order: 4
 has_children: true
 ---
 
-# Regulatory Compliance
+# 📁 4 — Regulatory Compliance
 
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Professional
@@ -38,6 +38,7 @@ It establishes the mandatory reporting workflow for the MunichTech incident resp
 *   **Defining the Trigger:** Clearly defines the legal moment of "Awareness" to prevent operational delays during a crisis.
 *   **The 24-72-30 Timeline:** Operationalizes the phased reporting requirement: a 24-hour early warning, a 72-hour detailed notification, and a 1-month final forensic report.
 *   **The "Double Notification" Rule:** Explicitly maps the parallel reporting obligations, acknowledging that a single database breach requires simultaneous notification to both the BSI (under NIS2) and the BayLDA (under DSGVO Art. 33).
+*   **DORA flow-down:** The notification-recipients table also records the contractual duty to inform enterprise banking clients under DORA (Reg. (EU) 2022/2554), which has applied since 17 January 2025 in place of BAIT. An incident reportable to the BSI is normally notifiable to affected clients as well, so the workflow tracks both routes rather than treating regulatory notification as the end of the process.
 
 ### 2. NIS-2 Betroffenheitsprüfung and BSI Registration Record
 
