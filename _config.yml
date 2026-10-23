@@ -1,5 +1,8 @@
 title: Austin Bond — GRC Portfolio
-description: ISO 27001:2022 ISMS Implementation — German Market Focus
+# The fallback meta description, used by any page that does not define its own.
+# It has to read as a description of the site rather than as a subtitle: 154
+# characters, so it survives a search result without being truncated.
+description: "An ISO 27001:2022 ISMS build for a fictional German B2B SaaS company: scope, risk register, Statement of Applicability, NIS2 and DSGVO records, audit."
 
 # Canonical origin. Needed for absolute URLs in the sitemap and in the 404 page's
 # relative_url links; without it Jekyll emits root-relative paths.
@@ -21,6 +24,11 @@ defaults:
     values:
       layout: default
 
-# Tooling lives outside version control; excluded here so a local build never publishes it.
+# Tooling lives outside version control; excluded here so a local build never
+# publishes it. README.md and AGENTS.md carry no front matter, so Jekyll treats
+# them as static files and copies them verbatim: the repository README and the
+# agent rules were being served as raw text on the public site.
 exclude:
   - tools/
+  - README.md
+  - AGENTS.md

@@ -1,5 +1,6 @@
 ---
 title: Risk Management
+description: "Information asset register (Annex A.5.9), ISO 27005 risk assessment methodology, and the risk register built under Clause 6.1 for MunichTech GmbH."
 nav_title: Risk
 nav_order: 2
 ---
@@ -9,7 +10,7 @@ Prepared by: Austin Bond, Junior GRC Professional
 
 
 
-## 📌 Folder Overview
+## Folder Overview
 
 This folder contains the operational engine of the MunichTech GmbH Information 
 Security Management System (ISMS). Risk management is the mechanism by which 
@@ -23,7 +24,7 @@ Risk Register.
 
 ---
 
-## 📄 Documents in This Folder
+## Documents in This Folder
 
 ### 1. Information Asset Register
 [`MT-ISMS-IAR-001_v1.0_asset-register.xlsx`](MT-ISMS-IAR-001_v1.0_asset-register.xlsx)
@@ -102,35 +103,35 @@ assigns mitigating controls from Annex A, and calculates residual risk.
 
 ---
 
-## 🗺️ How This Folder Fits the Wider ISMS Portfolio
+## How This Folder Fits the Wider ISMS Portfolio
 
 ```
 ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
-├── 📁 1 — Governance & Scope
-│   ├── MT-ISMS-SCO-001  Scope & Context    (Clause 4)
-│   └── MT-ISMS-POL-001  InfoSec Policy     (Clause 5)
+├── 1 — Governance & Scope
+│   ├── MT-ISMS-SCO-001  Scope & Context     (Clause 4)
+│   └── MT-ISMS-POL-001  InfoSec Policy      (Clause 5)
 │
-├── 📁 2 — Risk Management                    ← YOU ARE HERE
-│   ├── MT-ISMS-IAR-001  Asset Register     (Annex A 5.9)
-│   ├── MT-ISMS-RAM-001  Risk Methodology   (Clause 6.1.2)
-│   └── MT-ISMS-RR-001   Risk Register      (Clause 6.1.3)
+├── 2 — Risk Management                      ← YOU ARE HERE
+│   ├── MT-ISMS-IAR-001  Asset Register      (Annex A 5.9)
+│   ├── MT-ISMS-RAM-001  Risk Methodology    (Clause 6.1.2)
+│   └── MT-ISMS-RR-001   Risk Register       (Clause 6.1.3)
 │
-├── 📁 3 — Statement of Applicability
-│   └── SoA — 93 Annex A Controls           (Clause 6.1.3)
+├── 3 — Statement of Applicability
+│   └── SoA — 93 Annex A Controls            (Clause 6.1.3)
 │
-├── 📁 4 — Regulatory Compliance
-│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
-│   └── DSGVO Records of Processing        (DSGVO Art. 30)
+├── 4 — Regulatory Compliance
+│   ├── NIS2 Incident Reporting Workflow     (§ 32 BSIG)
+│   ├── NIS-2 Registration Record            (§§ 33/34 BSIG)
+│   └── DSGVO Records of Processing          (DSGVO Art. 30)
 │
-└── 📁 5 — Audit & Metrics
-    ├── Internal Audit Checklist            (Clause 9.2)
-    ├── Management Review Agenda           (Clause 9.3)
-    └── CAP Closure Memo                    (Clause 10.1)
+└── 5 — Audit & Metrics
+    ├── Internal Audit Checklist             (Clause 9.2)
+    ├── Management Review Agenda             (Clause 9.3)
+    └── CAP Closure Memo                     (Clause 10.1)
 ```
 
-## ⚖️ Regulatory Alignment
+## Regulatory Alignment
 
 | Regulation | Relevance to This Folder |
 |---|---|
@@ -140,19 +141,19 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ---
 
-## 📥 Download Documents
+## Download Documents
 
-[📊 Asset Register — Excel](MT-ISMS-IAR-001_v1.0_asset-register.xlsx){: .btn }
-[📄 Asset Register — PDF](MT-ISMS-IAR-001_v1.0_asset-register.pdf){: .btn }
-[📄 Classification Matrix — PDF](MT-ISMS-IAR-001_v1.0_classification-matrix.pdf){: .btn }
-[📄 Risk Methodology — PDF](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf){: .btn }
-[📝 Risk Methodology — Word](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.docx){: .btn }
-[📊 Risk Register — Excel](MT-ISMS-RR-001_v1.1_risk-register.xlsx){: .btn }
-[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
+[Asset Register — Excel](MT-ISMS-IAR-001_v1.0_asset-register.xlsx){: .btn }
+[Asset Register — PDF](MT-ISMS-IAR-001_v1.0_asset-register.pdf){: .btn }
+[Classification Matrix — PDF](MT-ISMS-IAR-001_v1.0_classification-matrix.pdf){: .btn }
+[Risk Methodology — PDF](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf){: .btn }
+[Risk Methodology — Word](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.docx){: .btn }
+[Risk Register — Excel](MT-ISMS-RR-001_v1.1_risk-register.xlsx){: .btn }
+[Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)

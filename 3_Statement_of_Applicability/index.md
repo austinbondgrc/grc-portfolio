@@ -1,5 +1,6 @@
 ---
 title: Statement of Applicability
+description: "The ISO 27001:2022 Statement of Applicability covering all 93 Annex A controls, with the justification for each inclusion, exclusion and implementation state."
 nav_title: SoA
 nav_order: 3
 ---
@@ -7,7 +8,7 @@ nav_order: 3
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Professional
 
-## 📌 Folder Overview
+## Folder Overview
 
 This folder contains the definitive bridge between risk assessment and operational security. The Statement of Applicability (SoA) is the most heavily scrutinized document during an ISO 27001 certification audit. It dictates exactly which security controls the organization has chosen to implement to treat the risks identified in the Risk Register.
 
@@ -15,7 +16,7 @@ The document in this folder demonstrates a comprehensive, audit-ready matrix ali
 
 ---
 
-## 📄 Documents in This Folder
+## Documents in This Folder
 
 ### 1. Statement of Applicability (SoA) — Current Release
 
@@ -54,36 +55,36 @@ The v1.0 SoA is retained unchanged as the baseline implementation snapshot. Keep
 
 ---
 
-## 🗺️ How This Folder Fits the Wider ISMS Portfolio
+## How This Folder Fits the Wider ISMS Portfolio
 
 ```text
 ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
-├── 📁 1 — Governance & Scope
-│   ├── MT-ISMS-SCO-001  Scope & Context    (Clause 4)
-│   └── MT-ISMS-POL-001  InfoSec Policy     (Clause 5)
+├── 1 — Governance & Scope
+│   ├── MT-ISMS-SCO-001  Scope & Context     (Clause 4)
+│   └── MT-ISMS-POL-001  InfoSec Policy      (Clause 5)
 │
-├── 📁 2 — Risk Management                    
-│   ├── MT-ISMS-IAR-001  Asset Register     (Annex A 5.9)
-│   ├── MT-ISMS-RAM-001  Risk Methodology   (Clause 6.1.2)
-│   └── MT-ISMS-RR-001   Risk Register      (Clause 6.1.3)
+├── 2 — Risk Management
+│   ├── MT-ISMS-IAR-001  Asset Register      (Annex A 5.9)
+│   ├── MT-ISMS-RAM-001  Risk Methodology    (Clause 6.1.2)
+│   └── MT-ISMS-RR-001   Risk Register       (Clause 6.1.3)
 │
-├── 📁 3 — Statement of Applicability         <-- YOU ARE HERE
-│   └── MT-ISMS-SOA-001  SoA — 93 Controls  (Clause 6.1.3)
+├── 3 — Statement of Applicability           ← YOU ARE HERE
+│   └── MT-ISMS-SOA-001  SoA — 93 Controls   (Clause 6.1.3)
 │
-├── 📁 4 — Regulatory Compliance
-│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
-│   └── DSGVO Records of Processing         (DSGVO Art. 30)
+├── 4 — Regulatory Compliance
+│   ├── NIS2 Incident Reporting Workflow     (§ 32 BSIG)
+│   ├── NIS-2 Registration Record            (§§ 33/34 BSIG)
+│   └── DSGVO Records of Processing          (DSGVO Art. 30)
 │
-└── 📁 5 — Audit & Metrics
-    ├── Internal Audit Checklist            (Clause 9.2)
-    └── Management Review Agenda            (Clause 9.3)
+└── 5 — Audit & Metrics
+    ├── Internal Audit Checklist             (Clause 9.2)
+    └── Management Review Agenda             (Clause 9.3)
 ```
 
 ---
 
-## ⚖️ Regulatory Alignment
+## Regulatory Alignment
 
 | Regulation | Relevance to This Folder |
 | :--- | :--- |
@@ -94,15 +95,15 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ---
 
-## 📥 Download Documents
+## Download Documents
 
-[📊 SoA v1.2 — Current (Excel)](MT-ISMS-SOA-001_v1.2_statement-of-applicability.xlsx){: .btn }
-[📊 SoA v1.0 — Baseline Archive (Excel)](MT-ISMS-SOA-001_v1.0_statement-of-applicability.xlsx){: .btn }
-[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
+[SoA v1.2 — Current (Excel)](MT-ISMS-SOA-001_v1.2_statement-of-applicability.xlsx){: .btn }
+[SoA v1.0 — Baseline Archive (Excel)](MT-ISMS-SOA-001_v1.0_statement-of-applicability.xlsx){: .btn }
+[Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)

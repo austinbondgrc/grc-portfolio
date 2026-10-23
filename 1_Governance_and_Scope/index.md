@@ -1,5 +1,6 @@
 ---
 title: Governance & Scope
+description: "ISMS scope and context definition to ISO 27001:2022 Clause 4, and the information security policy under Clause 5, for MunichTech GmbH."
 nav_title: Governance
 nav_order: 1
 ---
@@ -8,7 +9,7 @@ nav_order: 1
 Prepared by: Austin Bond, Junior GRC Professional
 
 
-## 📌 Folder Overview
+## Folder Overview
 
 This folder contains the foundational governance layer of the MunichTech GmbH 
 Information Security Management System (ISMS). These documents represent the 
@@ -22,7 +23,7 @@ wider ISMS portfolio.
 
 ---
 
-## 📄 Documents in This Folder
+## Documents in This Folder
 
 ### 1. ISMS Scope and Context Definition
 [`MT-ISMS-SCO-001_v1.3_scope-context.pdf`](MT-ISMS-SCO-001_v1.3_scope-context.pdf)
@@ -113,36 +114,36 @@ appropriate level of leadership.
 
 ---
 
-## 🗺️ How This Folder Fits the Wider ISMS Portfolio
+## How This Folder Fits the Wider ISMS Portfolio
 
 ```
 ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
-├── 📁 1 — Governance & Scope               ← YOU ARE HERE
-│   ├── MT-ISMS-SCO-001  Scope & Context    (Clause 4)
-│   └── MT-ISMS-POL-001  InfoSec Policy     (Clause 5)
+├── 1 — Governance & Scope                   ← YOU ARE HERE
+│   ├── MT-ISMS-SCO-001  Scope & Context     (Clause 4)
+│   └── MT-ISMS-POL-001  InfoSec Policy      (Clause 5)
 │
-├── 📁 2 — Risk Management
-│   ├── Information Asset Register          (Annex A 5.9)
-│   ├── Risk Assessment Methodology         (Clause 6.1)
-│   └── Risk Register                       (Clause 6.1 / 6.2)
+├── 2 — Risk Management
+│   ├── Information Asset Register           (Annex A 5.9)
+│   ├── Risk Assessment Methodology          (Clause 6.1)
+│   └── Risk Register                        (Clause 6.1 / 6.2)
 │
-├── 📁 3 — Statement of Applicability
-│   └── SoA — 93 Annex A Controls           (Clause 6.1.3)
+├── 3 — Statement of Applicability
+│   └── SoA — 93 Annex A Controls            (Clause 6.1.3)
 │
-├── 📁 4 — Regulatory Compliance
-│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
-│   └── DSGVO RoPA Template                 (DSGVO Art. 30)
+├── 4 — Regulatory Compliance
+│   ├── NIS2 Incident Reporting Workflow     (§ 32 BSIG)
+│   ├── NIS-2 Registration Record            (§§ 33/34 BSIG)
+│   └── DSGVO RoPA Template                  (DSGVO Art. 30)
 │
-└── 📁 5 — Audit & Metrics
-    ├── Internal Audit Checklist            (Clause 9.2)
-    └── Management Review Agenda           (Clause 9.3)
+└── 5 — Audit & Metrics
+    ├── Internal Audit Checklist             (Clause 9.2)
+    └── Management Review Agenda             (Clause 9.3)
 ```
 
 ---
 
-## ⚖️ Regulatory Alignment
+## Regulatory Alignment
 
 | Regulation | Relevance to This Folder |
 |---|---|
@@ -155,7 +156,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ---
 
-## 🧠 Portfolio Notes
+## Portfolio Notes
 
 This folder represents **Phase 1** of a complete, end-to-end ISO 27001:2022 
 ISMS implementation for a fictional B2B Financial Data Analytics SaaS company 
@@ -179,18 +180,18 @@ is coincidental.
 
 ---
 
-## 📥 Download Documents
+## Download Documents
 
-[📄 Scope & Context — PDF](MT-ISMS-SCO-001_v1.3_scope-context.pdf){: .btn }
-[📝 Scope & Context — Word](MT-ISMS-SCO-001_v1.3_scope-context.docx){: .btn }
-[📄 InfoSec Policy — PDF](MT-ISMS-POL-001_v1.2_infosec-policy.pdf){: .btn }
-[📝 InfoSec Policy — Word](MT-ISMS-POL-001_v1.2_infosec-policy.docx){: .btn }
-[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
+[Scope & Context — PDF](MT-ISMS-SCO-001_v1.3_scope-context.pdf){: .btn }
+[Scope & Context — Word](MT-ISMS-SCO-001_v1.3_scope-context.docx){: .btn }
+[InfoSec Policy — PDF](MT-ISMS-POL-001_v1.2_infosec-policy.pdf){: .btn }
+[InfoSec Policy — Word](MT-ISMS-POL-001_v1.2_infosec-policy.docx){: .btn }
+[Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
 

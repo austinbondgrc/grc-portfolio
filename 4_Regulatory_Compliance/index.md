@@ -1,5 +1,6 @@
 ---
 title: Regulatory Compliance
+description: "NIS2 incident reporting under § 32 BSIG, the NIS-2 registration record under §§ 33/34 BSIG, and DSGVO Article 30 records of processing."
 nav_title: Regulatory
 nav_order: 4
 ---
@@ -7,7 +8,7 @@ nav_order: 4
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Professional
 
-## 📌 Folder Overview
+## Folder Overview
 
 This folder demonstrates the critical intersection between cybersecurity engineering and European law. While ISO 27001 provides a voluntary framework for security best practices, the EU NIS2 Directive and DSGVO (GDPR) impose strict, mandatory legal obligations on MunichTech GmbH.
 
@@ -15,7 +16,7 @@ The documents in this folder prove the ability to translate abstract legal statu
 
 ---
 
-## 📄 Documents in This Folder
+## Documents in This Folder
 
 ### 1. NIS2 Incident Reporting Workflow
 
@@ -78,37 +79,37 @@ The *Verarbeitungsverzeichnis (VVT)* is the foundational legal ledger for data p
 
 ---
 
-## 🗺️ How This Folder Fits the Wider ISMS Portfolio
+## How This Folder Fits the Wider ISMS Portfolio
 
 ```text
 ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
-├── 📁 1 — Governance & Scope
-│   ├── MT-ISMS-SCO-001  Scope & Context    (Clause 4)
-│   └── MT-ISMS-POL-001  InfoSec Policy     (Clause 5)
+├── 1 — Governance & Scope
+│   ├── MT-ISMS-SCO-001  Scope & Context     (Clause 4)
+│   └── MT-ISMS-POL-001  InfoSec Policy      (Clause 5)
 │
-├── 📁 2 — Risk Management                    
-│   ├── MT-ISMS-IAR-001  Asset Register     (Annex A 5.9)
-│   ├── MT-ISMS-RAM-001  Risk Methodology   (Clause 6.1.2)
-│   └── MT-ISMS-RR-001   Risk Register      (Clause 6.1.3)
+├── 2 — Risk Management
+│   ├── MT-ISMS-IAR-001  Asset Register      (Annex A 5.9)
+│   ├── MT-ISMS-RAM-001  Risk Methodology    (Clause 6.1.2)
+│   └── MT-ISMS-RR-001   Risk Register       (Clause 6.1.3)
 │
-├── 📁 3 — Statement of Applicability         
-│   └── MT-ISMS-SOA-001  SoA — 93 Controls  (Clause 6.1.3)
+├── 3 — Statement of Applicability
+│   └── MT-ISMS-SOA-001  SoA — 93 Controls   (Clause 6.1.3)
 │
-├── 📁 4 — Regulatory Compliance              <-- YOU ARE HERE
-│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
-│   └── DSGVO Records of Processing         (DSGVO Art. 30)
+├── 4 — Regulatory Compliance                ← YOU ARE HERE
+│   ├── NIS2 Incident Reporting Workflow     (§ 32 BSIG)
+│   ├── NIS-2 Registration Record            (§§ 33/34 BSIG)
+│   └── DSGVO Records of Processing          (DSGVO Art. 30)
 │
-└── 📁 5 — Audit & Metrics
-    ├── Internal Audit Checklist            (Clause 9.2)
-    ├── Management Review Agenda            (Clause 9.3)
-    └── CAP Closure Memo                    (Clause 10.1)
+└── 5 — Audit & Metrics
+    ├── Internal Audit Checklist             (Clause 9.2)
+    ├── Management Review Agenda             (Clause 9.3)
+    └── CAP Closure Memo                     (Clause 10.1)
 ```
 
 ---
 
-## ⚖️ Regulatory Alignment
+## Regulatory Alignment
 
 | Regulation | Relevance to This Folder |
 | :--- | :--- |
@@ -120,18 +121,18 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ---
 
-## 📥 Download Documents
+## Download Documents
 
-[📄 Incident Reporting Workflow — PDF](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf){: .btn }
-[📝 Incident Reporting Workflow — Word](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.docx){: .btn }
-[📄 NIS-2 Registration Record — PDF](MT-NIS2-REG-001_v1.1_nis2-registration-record.pdf){: .btn }
-[📝 NIS-2 Registration Record — Word](MT-NIS2-REG-001_v1.1_nis2-registration-record.docx){: .btn }
-[📊 DSGVO RoPA — Excel](MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx){: .btn }
-[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
+[Incident Reporting Workflow — PDF](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf){: .btn }
+[Incident Reporting Workflow — Word](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.docx){: .btn }
+[NIS-2 Registration Record — PDF](MT-NIS2-REG-001_v1.1_nis2-registration-record.pdf){: .btn }
+[NIS-2 Registration Record — Word](MT-NIS2-REG-001_v1.1_nis2-registration-record.docx){: .btn }
+[DSGVO RoPA — Excel](MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx){: .btn }
+[Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)

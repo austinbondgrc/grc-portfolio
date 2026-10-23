@@ -1,5 +1,6 @@
 ---
 title: Governance, Risk & Compliance (GRC) Portfolio
+description: "A full ISO 27001:2022 ISMS build for a fictional German B2B SaaS company: five document domains from scope to audit, every artifact downloadable."
 nav_title: Overview
 nav_order: 0
 permalink: /
@@ -16,7 +17,7 @@ MunichTech GmbH \| ISO 27001:2022 ISMS Implementation
 
 ---
 
-## 📌 What This Repository Is
+## What This Repository Is
 
 **Certifications prove theoretical knowledge. This portfolio proves execution capability.**
 
@@ -26,7 +27,7 @@ Every artifact has been built to a standard suitable for presentation to a DAkkS
 
 ---
 
-## 👨‍💻 About the Author
+## About the Author
 
 **Austin Bond** — Junior GRC Professional
 
@@ -41,7 +42,7 @@ Every artifact has been built to a standard suitable for presentation to a DAkkS
 
 ---
 
-## 🏢 Fictional Client Profile
+## Fictional Client Profile
 
 | Field | Detail |
 | :--- | :--- |
@@ -55,7 +56,7 @@ Every artifact has been built to a standard suitable for presentation to a DAkkS
 
 ---
 
-## 🎯 Core Frameworks Applied
+## Core Frameworks Applied
 
 | Framework | Application |
 | :--- | :--- |
@@ -67,39 +68,39 @@ Every artifact has been built to a standard suitable for presentation to a DAkkS
 
 ---
 
-## 🗂️ Portfolio Structure
+## Portfolio Structure
 
 ```text
 ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
-├── 📁 1 — Governance & Scope
-│   ├── ISMS Scope & Context Definition     (Clause 4)
-│   └── Information Security Policy         (Clause 5)
+├── 1 — Governance & Scope
+│   ├── ISMS Scope & Context Definition      (Clause 4)
+│   └── Information Security Policy          (Clause 5)
 │
-├── 📁 2 — Risk Management
-│   ├── Information Asset Register          (Annex A 5.9)
-│   ├── Risk Assessment Methodology         (Clause 6.1)
-│   └── Risk Register                       (Clause 6.1 / 6.2)
+├── 2 — Risk Management
+│   ├── Information Asset Register           (Annex A 5.9)
+│   ├── Risk Assessment Methodology          (Clause 6.1)
+│   └── Risk Register                        (Clause 6.1 / 6.2)
 │
-├── 📁 3 — Statement of Applicability
-│   └── SoA — 93 Annex A Controls           (Clause 6.1.3)
+├── 3 — Statement of Applicability
+│   └── SoA — 93 Annex A Controls            (Clause 6.1.3)
 │
-├── 📁 4 — Regulatory Compliance
-│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
-│   └── DSGVO Records of Processing         (DSGVO Art. 30)
+├── 4 — Regulatory Compliance
+│   ├── NIS2 Incident Reporting Workflow     (§ 32 BSIG)
+│   ├── NIS-2 Registration Record            (§§ 33/34 BSIG)
+│   └── DSGVO Records of Processing          (DSGVO Art. 30)
 │
-└── 📁 5 — Audit & Metrics
-    ├── Internal Audit Checklist            (Clause 9.2)
-    ├── Management Review Agenda            (Clause 9.3)
-    └── CAP Closure Memo                    (Clause 10.1)
+└── 5 — Audit & Metrics
+    ├── Internal Audit Checklist             (Clause 9.2)
+    ├── Management Review Agenda             (Clause 9.3)
+    └── CAP Closure Memo                     (Clause 10.1)
 ```
 
 ---
 
-## 📄 Portfolio Contents
+## Portfolio Contents
 
-### [📁 1 — Governance & Scope](./1_Governance_and_Scope/)
+### [1 — Governance & Scope](./1_Governance_and_Scope/)
 
 | Document | Reference | Clause |
 | :--- | :--- | :--- |
@@ -110,7 +111,7 @@ The foundational governance layer. The Scope Document defines the precise ISMS b
 
 ---
 
-### [📁 2 — Risk Management](./2_Risk_Management/)
+### [2 — Risk Management](./2_Risk_Management/)
 
 | Document | Reference | Clause |
 | :--- | :--- | :--- |
@@ -122,7 +123,7 @@ The operational core of the ISMS. The Asset Register documents all information a
 
 ---
 
-### [📁 3 — Statement of Applicability](./3_Statement_of_Applicability/)
+### [3 — Statement of Applicability](./3_Statement_of_Applicability/)
 
 | Document | Reference | Clause |
 | :--- | :--- | :--- |
@@ -132,7 +133,7 @@ A comprehensive mapping of all 93 ISO 27001:2022 Annex A controls — explicitly
 
 ---
 
-### [📁 4 — Regulatory Compliance](./4_Regulatory_Compliance/)
+### [4 — Regulatory Compliance](./4_Regulatory_Compliance/)
 
 | Document | Reference | Framework |
 | :--- | :--- | :--- |
@@ -144,7 +145,7 @@ German-market regulatory compliance artifacts. The NIS2 Incident Reporting Workf
 
 ---
 
-### [📁 5 — Audit & Metrics](./5_Audit_and_Metrics/)
+### [5 — Audit & Metrics](./5_Audit_and_Metrics/)
 
 | Document | Reference | Clause |
 | :--- | :--- | :--- |
@@ -156,9 +157,9 @@ Operational assurance artifacts. The Internal Audit Checklist provides a structu
 
 ---
 
-## 📥 Downloads
+## Downloads
 
-[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
+[Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 One ZIP holding every document in this portfolio — the same PDFs, Word documents and
 workbooks linked from each section page, in the five folders above, with a plain-text
@@ -168,13 +169,13 @@ no website source or repository files.
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 All documents in this repository are fictional consulting deliverables created for portfolio demonstration purposes only. MunichTech GmbH does not exist. No real proprietary, personal, or confidential information is contained anywhere in this repository.

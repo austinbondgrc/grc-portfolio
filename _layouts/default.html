@@ -23,7 +23,7 @@
 {%- assign sections = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" -%}
 {%- assign num = page.nav_order | plus: 0 -%}
 
-<main class="main" id="main">
+<main class="main" id="main" tabindex="-1">
   <div class="wrap">
     {%- unless page.no_header %}
     <div class="sec-head">
@@ -84,16 +84,41 @@
   var mnav = document.getElementById('mnav');
   if (!burger || !mnav) return;
 
-  function setOpen(open){
+  /* The breakpoint the stylesheet uses to swap the link row for the drawer. */
+  var wide = window.matchMedia('(min-width: 881px)');
+  var FOCUSABLE = 'a[href],button:not([disabled]),[tabindex]:not([tabindex="-1"])';
+  var lastFocus = null;
+
+  function setOpen(open, restoreFocus){
     burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    /* The label has to follow the state: a button that still says "Open" while
+       the drawer is open tells a screen-reader user the opposite of what the
+       button will do. */
+    burger.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+
     if (open) {
+      lastFocus = document.activeElement;
       mnav.hidden = false;
       /* Force a reflow so the opacity transition runs from the hidden state. */
       void mnav.offsetWidth;
       mnav.classList.add('is-open');
+      /* The drawer declares aria-modal="true", so focus has to actually enter
+         it; otherwise the first Tab continues from the burger and walks the
+         page behind the overlay. */
+      var first = mnav.querySelector(FOCUSABLE);
+      if (first) first.focus();
     } else {
       mnav.classList.remove('is-open');
       mnav.hidden = true;
+      /* Focus is restored unless the drawer is closing because a link in it
+         was followed: that has already moved focus, and pulling it back to the
+         burger would fight the navigation. Hiding the panel drops focus to
+         <body>, which is the case this branch catches. */
+      if (restoreFocus !== false && lastFocus &&
+          (document.activeElement === document.body || mnav.contains(document.activeElement))) {
+        lastFocus.focus();
+      }
+      lastFocus = null;
     }
     document.documentElement.style.overflow = open ? 'hidden' : '';
   }
@@ -101,12 +126,45 @@
   burger.addEventListener('click', function(){
     setOpen(burger.getAttribute('aria-expanded') !== 'true');
   });
+
   mnav.addEventListener('click', function(e){
-    if (e.target.closest('a')) setOpen(false);
+    /* A link closes the drawer and is followed. A tap on the overlay itself —
+       the panel, not anything inside it — closes it too, which is what every
+       tap-outside gesture on a phone expects. Before this, only the links
+       closed it, so a tap on the empty space did nothing at all. */
+    if (e.target.closest('a')) setOpen(false, false);
+    else if (e.target === mnav) setOpen(false);
   });
+
   document.addEventListener('keydown', function(e){
-    if (e.key === 'Escape' && burger.getAttribute('aria-expanded') === 'true') setOpen(false);
+    if (burger.getAttribute('aria-expanded') !== 'true') return;
+    if (e.key === 'Escape'){ setOpen(false); return; }
+    /* aria-modal="true" promises the rest of the page is inert while the drawer
+       is open. Without a Tab trap that promise is false: Tab walks out of the
+       dialog, through the masthead and footer links behind it, and Shift+Tab
+       from the first link leaves the page entirely. */
+    if (e.key !== 'Tab') return;
+    var items = Array.prototype.filter.call(mnav.querySelectorAll(FOCUSABLE), function(el){
+      return !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
+    });
+    if (!items.length) return;
+    var first = items[0];
+    var last = items[items.length - 1];
+    if (e.shiftKey && document.activeElement === first){
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last){
+      e.preventDefault();
+      first.focus();
+    }
   });
+
+  /* Past the breakpoint the stylesheet hides the burger and shows the link row,
+     so an open drawer would stay locked over a page with no visible control to
+     close it. */
+  function onBreakpoint(e){ if (e.matches) setOpen(false); }
+  if (wide.addEventListener) wide.addEventListener('change', onBreakpoint);
+  else wide.addListener(onBreakpoint);
 })();
 </script>
 </body>

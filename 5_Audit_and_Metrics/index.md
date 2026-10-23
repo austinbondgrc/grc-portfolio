@@ -1,5 +1,6 @@
 ---
 title: Audit & Metrics
+description: "Internal audit checklist (Clause 9.2), management review agenda (Clause 9.3) and a corrective action plan closure memo (Clause 10.1)."
 nav_title: Audit
 nav_order: 5
 ---
@@ -7,7 +8,7 @@ nav_order: 5
 **MunichTech GmbH | ISO 27001:2022 ISMS Portfolio**  
 **Prepared by:** Austin Bond, Junior GRC Professional
 
-## 📌 Folder Overview
+## Folder Overview
 
 This folder proves that an Information Security Management System (ISMS) is not a static, one-time documentation project, but a living, continuously improving operational framework. 
 
@@ -15,7 +16,7 @@ The documents in this folder demonstrate the ability to execute the critical "Ch
 
 ---
 
-## 📄 Documents in This Folder
+## Documents in This Folder
 
 ### 1. Internal Audit Checklist & Working Paper
 
@@ -72,37 +73,37 @@ It formally documents the remediation, verification, and closure of the findings
 
 ---
 
-## 🗺️ How This Folder Fits the Wider ISMS Portfolio
+## How This Folder Fits the Wider ISMS Portfolio
 
 ```text
 ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 │
-├── 📁 1 — Governance & Scope
-│   ├── MT-ISMS-SCO-001  Scope & Context    (Clause 4)
-│   └── MT-ISMS-POL-001  InfoSec Policy     (Clause 5)
+├── 1 — Governance & Scope
+│   ├── MT-ISMS-SCO-001  Scope & Context     (Clause 4)
+│   └── MT-ISMS-POL-001  InfoSec Policy      (Clause 5)
 │
-├── 📁 2 — Risk Management                    
-│   ├── MT-ISMS-IAR-001  Asset Register     (Annex A 5.9)
-│   ├── MT-ISMS-RAM-001  Risk Methodology   (Clause 6.1.2)
-│   └── MT-ISMS-RR-001   Risk Register      (Clause 6.1.3)
+├── 2 — Risk Management
+│   ├── MT-ISMS-IAR-001  Asset Register      (Annex A 5.9)
+│   ├── MT-ISMS-RAM-001  Risk Methodology    (Clause 6.1.2)
+│   └── MT-ISMS-RR-001   Risk Register       (Clause 6.1.3)
 │
-├── 📁 3 — Statement of Applicability         
-│   └── MT-ISMS-SOA-001  SoA — 93 Controls  (Clause 6.1.3)
+├── 3 — Statement of Applicability
+│   └── MT-ISMS-SOA-001  SoA — 93 Controls   (Clause 6.1.3)
 │
-├── 📁 4 — Regulatory Compliance              
-│   ├── NIS2 Incident Reporting Workflow    (§ 32 BSIG)
-│   ├── NIS-2 Registration Record           (§§ 33/34 BSIG)
-│   └── DSGVO Records of Processing         (DSGVO Art. 30)
+├── 4 — Regulatory Compliance
+│   ├── NIS2 Incident Reporting Workflow     (§ 32 BSIG)
+│   ├── NIS-2 Registration Record            (§§ 33/34 BSIG)
+│   └── DSGVO Records of Processing          (DSGVO Art. 30)
 │
-└── 📁 5 — Audit & Metrics                    <-- YOU ARE HERE
-    ├── Internal Audit Checklist            (Clause 9.2)
-    ├── Management Review Agenda            (Clause 9.3)
-    └── CAP Closure Memo                    (Clause 10.1)
+└── 5 — Audit & Metrics                      ← YOU ARE HERE
+    ├── Internal Audit Checklist             (Clause 9.2)
+    ├── Management Review Agenda             (Clause 9.3)
+    └── CAP Closure Memo                     (Clause 10.1)
 ```
 
 ---
 
-## ⚖️ Regulatory Alignment
+## Regulatory Alignment
 
 | Regulation | Relevance to This Folder |
 | :--- | :--- |
@@ -112,18 +113,18 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ---
 
-## 📥 Download Documents
+## Download Documents
 
-[📊 Internal Audit Checklist — Excel](MT-ISMS-AUD-001_v1.0_internal-audit-checklist.xlsx){: .btn }
-[📄 Management Review Agenda — PDF](MT-ISMS-MRA-001_v1.0_management-review-agenda.pdf){: .btn }
-[📝 Management Review Agenda — Word](MT-ISMS-MRA-001_v1.0_management-review-agenda.docx){: .btn }
-[📄 CAP Closure Memo — PDF](MT-ISMS-CAP-001_v1.0_cap-closure-memo.pdf){: .btn }
-[📝 CAP Closure Memo — Word](MT-ISMS-CAP-001_v1.0_cap-closure-memo.docx){: .btn }
-[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
+[Internal Audit Checklist — Excel](MT-ISMS-AUD-001_v1.0_internal-audit-checklist.xlsx){: .btn }
+[Management Review Agenda — PDF](MT-ISMS-MRA-001_v1.0_management-review-agenda.pdf){: .btn }
+[Management Review Agenda — Word](MT-ISMS-MRA-001_v1.0_management-review-agenda.docx){: .btn }
+[CAP Closure Memo — PDF](MT-ISMS-CAP-001_v1.0_cap-closure-memo.pdf){: .btn }
+[CAP Closure Memo — Word](MT-ISMS-CAP-001_v1.0_cap-closure-memo.docx){: .btn }
+[Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)*  [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
