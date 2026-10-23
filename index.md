@@ -158,7 +158,13 @@ Operational assurance artifacts. The Internal Audit Checklist provides a structu
 
 ## 📥 Downloads
 
-[⬇ Download Full Portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }  [📁 View on GitHub](https://github.com/austinbondgrc/grc-portfolio){: .btn }
+[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
+
+One ZIP holding every document in this portfolio — the same PDFs, Word documents and
+workbooks linked from each section page, in the five folders above, with a plain-text
+guide at the root telling you where to start. The PDFs need nothing installed; the
+Office sources sit beside them. The archive contains only the documents themselves,
+no website source or repository files.
 
 ---
 

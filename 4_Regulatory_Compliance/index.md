@@ -127,8 +127,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 [📄 NIS-2 Registration Record — PDF](MT-NIS2-REG-001_v1.1_nis2-registration-record.pdf){: .btn }
 [📝 NIS-2 Registration Record — Word](MT-NIS2-REG-001_v1.1_nis2-registration-record.docx){: .btn }
 [📊 DSGVO RoPA — Excel](MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx){: .btn }
-[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/4_Regulatory_Compliance){: .btn }
-[⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
+[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 

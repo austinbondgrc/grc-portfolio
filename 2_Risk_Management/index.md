@@ -148,8 +148,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 [📄 Risk Methodology — PDF](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf){: .btn }
 [📝 Risk Methodology — Word](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.docx){: .btn }
 [📊 Risk Register — Excel](MT-ISMS-RR-001_v1.1_risk-register.xlsx){: .btn }
-[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/2_Risk_Management){: .btn }
-[⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
+[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 

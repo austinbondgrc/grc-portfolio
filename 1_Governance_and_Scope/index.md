@@ -185,8 +185,7 @@ is coincidental.
 [📝 Scope & Context — Word](MT-ISMS-SCO-001_v1.3_scope-context.docx){: .btn }
 [📄 InfoSec Policy — PDF](MT-ISMS-POL-001_v1.2_infosec-policy.pdf){: .btn }
 [📝 InfoSec Policy — Word](MT-ISMS-POL-001_v1.2_infosec-policy.docx){: .btn }
-[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/1_Governance_and_Scope){: .btn }
-[⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
+[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 

@@ -119,8 +119,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 [📝 Management Review Agenda — Word](MT-ISMS-MRA-001_v1.0_management-review-agenda.docx){: .btn }
 [📄 CAP Closure Memo — PDF](MT-ISMS-CAP-001_v1.0_cap-closure-memo.pdf){: .btn }
 [📝 CAP Closure Memo — Word](MT-ISMS-CAP-001_v1.0_cap-closure-memo.docx){: .btn }
-[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/5_Audit_and_Metrics){: .btn }
-[⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
+[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 

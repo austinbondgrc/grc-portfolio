@@ -98,8 +98,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 [📊 SoA v1.2 — Current (Excel)](MT-ISMS-SOA-001_v1.2_statement-of-applicability.xlsx){: .btn }
 [📊 SoA v1.0 — Baseline Archive (Excel)](MT-ISMS-SOA-001_v1.0_statement-of-applicability.xlsx){: .btn }
-[📁 Browse folder on GitHub](https://github.com/austinbondgrc/grc-portfolio/tree/main/3_Statement_of_Applicability){: .btn }
-[⬇ Download full portfolio (ZIP)](https://github.com/austinbondgrc/grc-portfolio/archive/refs/heads/main.zip){: .btn .btn-primary }
+[⬇ Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
 
