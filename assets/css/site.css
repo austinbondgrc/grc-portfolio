@@ -620,12 +620,13 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   gap:.25rem;
   min-width:11rem;
   padding:.9rem 1.1rem;
+  text-align:center;
   border:1px solid var(--rule-hair);
   border-radius:2px;
   transition:border-color .22s var(--ease),background .22s var(--ease);
 }
 .pager__link:hover{border-color:var(--rule-strong);background:var(--wash)}
-.pager__link--next{margin-left:auto;text-align:right}
+.pager__link--next{margin-left:auto}
 .pager__dir{
   font-size:.68rem;
   font-weight:560;
@@ -725,7 +726,7 @@ html:not(.js) .nav__links{flex-wrap:wrap;row-gap:.25rem}
   .prose tbody td:first-child{min-width:7rem}
   .pager{flex-direction:column}
   .pager__link{min-width:0}
-  .pager__link--next{margin-left:0;text-align:left}
+  .pager__link--next{margin-left:0}
 }
 @media (max-width:520px){
   /* A shorter bar keeps the sticky masthead from eating a phone's viewport. */
