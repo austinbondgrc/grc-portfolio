@@ -39,6 +39,7 @@ Every artifact has been built to a standard suitable for presentation to a DAkkS
 | **Languages** | English (Native) · German (C1)(In Progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
 | **LinkedIn** | [linkedin.com/in/austinbondgrc](https://www.linkedin.com/in/austinbondgrc) |
+| **Email** | [austinbond@protonmail.com](mailto:austinbond@protonmail.com) |
 
 ---
 
