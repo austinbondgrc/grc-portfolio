@@ -13,7 +13,7 @@ MunichTech GmbH \| ISO 27001:2022 ISMS Implementation
 
 > Prepared by: **Austin Bond** — Junior GRC Professional  
 > Target Market: German Private Sector  
-> Status: **Active Development**
+> Status: **Active — last updated 26 October 2026**
 
 ---
 
@@ -35,7 +35,7 @@ Every artifact has been built to a standard suitable for presentation to a DAkkS
 | :--- | :--- |
 | **Background** | Corporate Language Trainer — executive communication and stakeholder management |
 | **Education** | MSc Computer Science *(In Progress — Heriot-Watt University)* |
-| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer *(Completed)* & Auditor *(In Progress)*<br>PECB NIS2 Provisional Implementer *(Completed)*<br>Associate of ISC2 — CISSP *(In Progress)* |
+| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer<br>PECB ISO/IEC 27001 Provisional Auditor *(In Progress)*<br>PECB NIS2 Provisional Implementer<br>Associate of ISC2 — CISSP *(In Progress)* |
 | **Languages** | English (Native) · German (C1)(In Progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
 | **LinkedIn** | [linkedin.com/in/austinbondgrc](https://www.linkedin.com/in/austinbondgrc) |
@@ -94,7 +94,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 └── 5 — Audit & Metrics
     ├── Internal Audit Checklist             (Clause 9.2)
     ├── Management Review Agenda             (Clause 9.3)
-    └── CAP Closure Memo                     (Clause 10.1)
+    └── CAP Closure Memo                     (Clause 10.2)
 ```
 
 ---
@@ -152,9 +152,9 @@ German-market regulatory compliance artifacts. The NIS2 Incident Reporting Workf
 | :--- | :--- | :--- |
 | Internal Audit Checklist | MT-ISMS-AUD-001 | ISO 27001:2022 — 9.2 |
 | Management Review Agenda | MT-ISMS-MRA-001 | ISO 27001:2022 — 9.3 |
-| Corrective Action Plan (CAP) Closure Memo | MT-ISMS-CAP-001 | ISO 27001:2022 — 10.1 |
+| Corrective Action Plan (CAP) Closure Memo | MT-ISMS-CAP-001 | ISO 27001:2022 — 10.2 |
 
-Operational assurance artifacts. The Internal Audit Checklist provides a structured evaluation tool for assessing ISMS control effectiveness and conformity. The Management Review Agenda documents required inputs and outputs for the annual executive ISMS review, ensuring leadership visibility and continuous improvement in line with Clause 9.3 requirements. The CAP Closure Memo formally documents remediation and closure of audit findings, demonstrating the "Act" phase of continual improvement.
+Operational assurance artifacts. The Internal Audit Checklist provides a structured evaluation tool for assessing ISMS control effectiveness and conformity. The Management Review Agenda documents required inputs and outputs for the annual executive ISMS review, ensuring leadership visibility and continuous improvement in line with Clause 9.3 requirements. The CAP Closure Memo formally documents remediation and closure of audit findings under Clause 10.2 (nonconformity and corrective action), with the resulting improvement recorded under Clause 10.1.
 
 ---
 
@@ -173,7 +173,7 @@ no website source or repository files.
 ## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | PECB ISO/IEC 27001 Provisional Implementer · PECB ISO/IEC 27001 Provisional Auditor *(In Progress)* · PECB NIS2 Provisional Implementer · Associate of ISC2 CISSP *(In Progress)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
 
 ---
 

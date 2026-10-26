@@ -1,6 +1,6 @@
 ---
 title: Audit & Metrics
-description: "Internal audit checklist (Clause 9.2), management review agenda (Clause 9.3) and a corrective action plan closure memo (Clause 10.1)."
+description: "Internal audit checklist (Clause 9.2), management review agenda (Clause 9.3) and a corrective action plan closure memo (Clause 10.2, with the improvement outcome recorded under Clause 10.1)."
 nav_title: Audit
 nav_order: 5
 ---
@@ -20,12 +20,14 @@ The documents in this folder demonstrate the ability to execute the critical "Ch
 
 ### 1. Internal Audit Checklist & Working Paper
 
-**File:** [`MT-ISMS-AUD-001_v1.0_internal-audit-checklist.xlsx`](MT-ISMS-AUD-001_v1.0_internal-audit-checklist.xlsx)
+**File:** [`MT-ISMS-AUD-001_v1.1_internal-audit-checklist.xlsx`](MT-ISMS-AUD-001_v1.1_internal-audit-checklist.xlsx)
 
 | Field | Detail |
 | :--- | :--- |
 | **Framework Reference** | ISO/IEC 27001:2022 (Clause 9.2) |
 | **Format** | Excel Spreadsheet (Audit Working Paper) |
+| **Version** | 1.1 (consistency release) |
+| **Effective** | 26 October 2026 |
 
 **What this document does:**  
 It provides a structured, evidence-based evaluation of the ISMS controls. Rather than relying on interviews, it demands specific technical artifacts (e.g., AWS console reviews, MDM policies) to prove conformity, and establishes a formal Corrective Action Plan (CAP) tracking mechanism for identified failures.
@@ -34,7 +36,8 @@ It provides a structured, evidence-based evaluation of the ISMS controls. Rather
 
 *   **Evidence Traceability (The "Show Me" Rule):** The audit notes avoid generic statements. They cite exact, verifiable artifacts (e.g., specific AWS Account IDs and signed PDF file names) to ensure the audit trail is legally defensible during an external assessment.
 *   **Realistic Non-Conformities:** Includes a deliberate Minor Non-Conformity (MiNC) regarding a missing executive signature. This proves an understanding of the real-world audit lifecycle and the necessity of prescribing Corrective Action Plans (CAPs).
-*   **Accountability Mapping:** Every finding that requires remediation is strictly mapped to a specific CAP Owner (e.g., CISO / Head of Engineering) and a target remediation date, closing the loop on identified vulnerabilities.
+*   **Accountability Mapping:** Every finding that requires remediation is strictly mapped to a specific CAP Owner (e.g., Head of Engineering (Interim CISO)) and a target remediation date, closing the loop on identified vulnerabilities.
+*   **Auditor Independence:** The audit is led by an external Big 4 engagement lead who is independent of the ISMS. Austin Bond is recorded as audit support and technical author, so the person who authored the ISMS documents is not the person attesting their conformity (Clause 9.2).
 
 ### 2. Management Review Agenda & Minutes
 
@@ -56,12 +59,14 @@ It serves as the definitive record of executive oversight for the ISMS. It trans
 
 ### 3. Corrective Action Plan (CAP) Closure Memo
 
-**File:** [`MT-ISMS-CAP-001_v1.0_cap-closure-memo.pdf`](MT-ISMS-CAP-001_v1.0_cap-closure-memo.pdf)
+**File:** [`MT-ISMS-CAP-001_v1.1_cap-closure-memo.pdf`](MT-ISMS-CAP-001_v1.1_cap-closure-memo.pdf)
 
 | Field | Detail |
 | :--- | :--- |
-| **Framework Reference** | ISO/IEC 27001:2022 (Clause 10.1 - Continual Improvement) |
+| **Framework Reference** | ISO/IEC 27001:2022 (Clause 10.2 - Nonconformity and Corrective Action; improvement outcome recorded under Clause 10.1) |
 | **Format** | PDF Document (Internal Memorandum) |
+| **Version** | 1.1 (consistency release) |
+| **Effective** | 26 October 2026 |
 
 **What this document does:**  
 It formally documents the remediation, verification, and closure of the findings identified during the Internal Audit. This document is the ultimate proof of the ISO 27001 "Act" phase, showing that the organization learns from its mistakes and improves its security posture over time.
@@ -98,7 +103,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 └── 5 — Audit & Metrics                      ← YOU ARE HERE
     ├── Internal Audit Checklist             (Clause 9.2)
     ├── Management Review Agenda             (Clause 9.3)
-    └── CAP Closure Memo                     (Clause 10.1)
+    └── CAP Closure Memo                     (Clause 10.2)
 ```
 
 ---
@@ -107,7 +112,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 | Regulation | Relevance to This Folder |
 | :--- | :--- |
-| **ISO/IEC 27001:2022** | Directly fulfills the mandatory requirements of Clause 9.2 (Internal audit), Clause 9.3 (Management review), and Clause 10 (Continual improvement). |
+| **ISO/IEC 27001:2022** | Directly fulfills the mandatory requirements of Clause 9.2 (Internal audit), Clause 9.3 (Management review), and Clause 10 (Improvement). |
 | **EU NIS2 Directive** | Satisfies Article 20 obligations requiring the management body to approve cybersecurity risk-management measures and oversee their implementation. |
 | **DSGVO / GDPR** | Aligns with Article 32(1)(d), which requires a process for regularly testing, assessing, and evaluating the effectiveness of technical and organisational measures (TOMs). |
 
@@ -115,11 +120,13 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ## Download Documents
 
-[Internal Audit Checklist — Excel](MT-ISMS-AUD-001_v1.0_internal-audit-checklist.xlsx){: .btn }
+[Internal Audit Checklist v1.1 — Excel](MT-ISMS-AUD-001_v1.1_internal-audit-checklist.xlsx){: .btn }
 [Management Review Agenda — PDF](MT-ISMS-MRA-001_v1.0_management-review-agenda.pdf){: .btn }
 [Management Review Agenda — Word](MT-ISMS-MRA-001_v1.0_management-review-agenda.docx){: .btn }
-[CAP Closure Memo — PDF](MT-ISMS-CAP-001_v1.0_cap-closure-memo.pdf){: .btn }
-[CAP Closure Memo — Word](MT-ISMS-CAP-001_v1.0_cap-closure-memo.docx){: .btn }
+[CAP Closure Memo v1.1 — PDF](MT-ISMS-CAP-001_v1.1_cap-closure-memo.pdf){: .btn }
+[CAP Closure Memo v1.1 — Word](MT-ISMS-CAP-001_v1.1_cap-closure-memo.docx){: .btn }
+[Internal Audit Checklist v1.0 — Archive (Excel)](MT-ISMS-AUD-001_v1.0_internal-audit-checklist.xlsx){: .btn }
+[CAP Closure Memo v1.0 — Archive (PDF)](MT-ISMS-CAP-001_v1.0_cap-closure-memo.pdf){: .btn }
 [Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
@@ -127,4 +134,4 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | PECB ISO/IEC 27001 Provisional Implementer · PECB ISO/IEC 27001 Provisional Auditor *(In Progress)* · PECB NIS2 Provisional Implementer · Associate of ISC2 CISSP *(In Progress)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)

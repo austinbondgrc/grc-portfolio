@@ -55,17 +55,20 @@ for quick review without opening the workbook.
 ---
 
 ### 2. Risk Assessment Methodology
-[`MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf`](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf)
+[`MT-ISMS-RAM-001_v1.2_risk-assessment-methodology.pdf`](MT-ISMS-RAM-001_v1.2_risk-assessment-methodology.pdf)
 
 | Field | Detail |
 |---|---|
 | **ISO 27001:2022 Reference** | Clause 6.1.2 (Information security risk assessment) |
 | **Format** | PDF Document |
+| **Version** | 1.2 (consistency release) |
+| **Effective** | 26 October 2026 |
 
 **What this document does:**
 Defines the mathematical and qualitative framework used to identify, analyze, 
 and evaluate information security risks. It establishes the criteria for risk 
-acceptance (anchored to the board's Risk Appetite Statement in Clause 4) and 
+acceptance (anchored to the board's Risk Appetite Statement in MT-ISMS-SCO-001 
+Section 7) and 
 ensures risk assessments produce consistent, valid, and comparable results.
 
 **Key consulting decisions:**
@@ -78,13 +81,14 @@ ensures risk assessments produce consistent, valid, and comparable results.
 ---
 
 ### 3. Information Security Risk Register
-[`MT-ISMS-RR-001_v1.1_risk-register.xlsx`](MT-ISMS-RR-001_v1.1_risk-register.xlsx)
+[`MT-ISMS-RR-001_v1.2_risk-register.xlsx`](MT-ISMS-RR-001_v1.2_risk-register.xlsx)
 
 | Field | Detail |
 |---|---|
 | **ISO 27001:2022 Reference** | Clause 6.1.2, 6.1.3, 6.2 |
 | **Format** | Excel Spreadsheet |
-| **Version** | 1.1 (citation-correction release) |
+| **Version** | 1.2 (role-title release) |
+| **Effective** | 26 October 2026 |
 
 **What this document does:**
 The central operational artifact of the ISMS. It applies the Methodology to the 
@@ -128,7 +132,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 └── 5 — Audit & Metrics
     ├── Internal Audit Checklist             (Clause 9.2)
     ├── Management Review Agenda             (Clause 9.3)
-    └── CAP Closure Memo                     (Clause 10.1)
+    └── CAP Closure Memo                     (Clause 10.2)
 ```
 
 ## Regulatory Alignment
@@ -146,9 +150,11 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 [Asset Register — Excel](MT-ISMS-IAR-001_v1.0_asset-register.xlsx){: .btn }
 [Asset Register — PDF](MT-ISMS-IAR-001_v1.0_asset-register.pdf){: .btn }
 [Classification Matrix — PDF](MT-ISMS-IAR-001_v1.0_classification-matrix.pdf){: .btn }
-[Risk Methodology — PDF](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf){: .btn }
-[Risk Methodology — Word](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.docx){: .btn }
-[Risk Register — Excel](MT-ISMS-RR-001_v1.1_risk-register.xlsx){: .btn }
+[Risk Methodology v1.2 — PDF](MT-ISMS-RAM-001_v1.2_risk-assessment-methodology.pdf){: .btn }
+[Risk Methodology v1.2 — Word](MT-ISMS-RAM-001_v1.2_risk-assessment-methodology.docx){: .btn }
+[Risk Register v1.2 — Excel](MT-ISMS-RR-001_v1.2_risk-register.xlsx){: .btn }
+[Risk Methodology v1.1 — Archive (PDF)](MT-ISMS-RAM-001_v1.1_risk-assessment-methodology.pdf){: .btn }
+[Risk Register v1.1 — Archive (Excel)](MT-ISMS-RR-001_v1.1_risk-register.xlsx){: .btn }
 [Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
@@ -156,4 +162,4 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | PECB ISO/IEC 27001 Provisional Implementer · PECB ISO/IEC 27001 Provisional Auditor *(In Progress)* · PECB NIS2 Provisional Implementer · Associate of ISC2 CISSP *(In Progress)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)

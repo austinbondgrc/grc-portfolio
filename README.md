@@ -3,7 +3,7 @@
 
 > Prepared by: **Austin Bond** — Junior GRC Professional  
 > Target Market: German Private Sector
-> Status: **Active Development**
+> Status: **Active — last updated 26 October 2026**
 
 ---
 
@@ -32,8 +32,9 @@ rights — is woven throughout.
 |---|---|
 | **Background** | Corporate Language Trainer — executive communication and stakeholder management |
 | **Education** | MSc Computer Science *(In Progress — Heriot-Watt University)* |
-| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer *(Completed)* & Auditor *(In Progress)* |
-| | PECB NIS2 Provisional Implementer *(Completed)* |
+| **Certifications** | PECB ISO/IEC 27001 Provisional Implementer |
+| | PECB ISO/IEC 27001 Provisional Auditor *(In Progress)* |
+| | PECB NIS2 Provisional Implementer |
 | | Associate of ISC2 — CISSP *(In Progress)* |
 | **Languages** | English (Native) · German (C1)(In Progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
@@ -93,7 +94,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 └── 📁 5 — Audit & Metrics
     ├── Internal Audit Checklist            (Clause 9.2)
     ├── Management Review Agenda           (Clause 9.3)
-    └── CAP Closure Memo                    (Clause 10.1)
+    └── CAP Closure Memo                    (Clause 10.2)
 ```
 
 ---
@@ -175,15 +176,16 @@ relationships (Auftragsverarbeiter / AVV) in accordance with Article 30.
 |---|---|---|
 | Internal Audit Checklist | MT-ISMS-AUD-001 | ISO 27001:2022 — 9.2 |
 | Management Review Agenda | MT-ISMS-MRA-001 | ISO 27001:2022 — 9.3 |
-| Corrective Action Plan (CAP) Closure Memo | MT-ISMS-CAP-001 | ISO 27001:2022 — 10.1 |
+| Corrective Action Plan (CAP) Closure Memo | MT-ISMS-CAP-001 | ISO 27001:2022 — 10.2 |
 
 Operational assurance artifacts. The Internal Audit Checklist provides a 
 structured evaluation tool for assessing ISMS control effectiveness and 
 conformity. The Management Review Agenda documents required inputs and outputs 
 for the annual executive ISMS review, ensuring leadership visibility and 
 continuous improvement in line with Clause 9.3 requirements. The CAP Closure 
-Memo records formal remediation and closure of audit findings, evidencing the 
-"Act" phase under Clause 10.1.
+Memo records formal remediation and closure of audit findings under Clause 10.2 
+(nonconformity and corrective action), with the resulting improvement recorded 
+under Clause 10.1.
 
 ---
 

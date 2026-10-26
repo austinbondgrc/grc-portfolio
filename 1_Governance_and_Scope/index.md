@@ -26,14 +26,15 @@ wider ISMS portfolio.
 ## Documents in This Folder
 
 ### 1. ISMS Scope and Context Definition
-[`MT-ISMS-SCO-001_v1.3_scope-context.pdf`](MT-ISMS-SCO-001_v1.3_scope-context.pdf)
+[`MT-ISMS-SCO-001_v1.4_scope-context.pdf`](MT-ISMS-SCO-001_v1.4_scope-context.pdf)
 
 | Field | Detail |
 |---|---|
 | **Document Reference** | MT-ISMS-SCO-001 |
 | **ISO 27001:2022 Clauses** | 4.1, 4.2, 4.3 |
-| **Version** | 1.3 |
-| **Status** | Final |
+| **Version** | 1.4 (consistency release) |
+| **Effective** | 26 October 2026 |
+| **Status** | Current |
 
 **What this document does:**
 
@@ -74,14 +75,15 @@ security-relevant needs and expectations.
 ---
 
 ### 2. Information Security Policy
-[`MT-ISMS-POL-001_v1.2_infosec-policy.pdf`](MT-ISMS-POL-001_v1.2_infosec-policy.pdf)
+[`MT-ISMS-POL-001_v1.3_infosec-policy.pdf`](MT-ISMS-POL-001_v1.3_infosec-policy.pdf)
 
 | Field | Detail |
 |---|---|
 | **Document Reference** | MT-ISMS-POL-001 |
 | **ISO 27001:2022 Clauses** | 5.1, 5.2, 5.3 |
-| **Version** | 1.2 |
-| **Status** | Final |
+| **Version** | 1.3 (consistency release) |
+| **Effective** | 26 October 2026 |
+| **Status** | Current |
 
 **What this document does:**
 
@@ -102,7 +104,7 @@ appropriate level of leadership.
   non-compliance section — the most effective lever for securing genuine 
   board engagement with the ISMS
 - **Key person risk openly acknowledged** in the Roles and Responsibilities 
-  section (no dedicated CISO; risk tracked as HR-003 in the Risk Register) — 
+  section (no dedicated CISO; risk tracked as RR-013 in the Risk Register) — 
   a maturity signal rarely seen in policy documents at this level
 - Betriebsrat coordination referenced for both policy communication and 
   disciplinary consequences, reflecting German co-determination law 
@@ -111,6 +113,10 @@ appropriate level of leadership.
   for a Munich-based workforce
 - Policy intentionally concise: ISO 27001:2022 does not reward length — it 
   rewards precision, accountability, and the right content
+
+### Superseded versions (retained)
+
+`MT-ISMS-SCO-001_v1.3_scope-context.pdf` and `MT-ISMS-POL-001_v1.2_infosec-policy.pdf` are retained unchanged as the audit trail. They are not edited when the current version changes; the differences are recorded in each document's revision history.
 
 ---
 
@@ -182,10 +188,12 @@ is coincidental.
 
 ## Download Documents
 
-[Scope & Context — PDF](MT-ISMS-SCO-001_v1.3_scope-context.pdf){: .btn }
-[Scope & Context — Word](MT-ISMS-SCO-001_v1.3_scope-context.docx){: .btn }
-[InfoSec Policy — PDF](MT-ISMS-POL-001_v1.2_infosec-policy.pdf){: .btn }
-[InfoSec Policy — Word](MT-ISMS-POL-001_v1.2_infosec-policy.docx){: .btn }
+[Scope & Context v1.4 — PDF](MT-ISMS-SCO-001_v1.4_scope-context.pdf){: .btn }
+[Scope & Context v1.4 — Word](MT-ISMS-SCO-001_v1.4_scope-context.docx){: .btn }
+[InfoSec Policy v1.3 — PDF](MT-ISMS-POL-001_v1.3_infosec-policy.pdf){: .btn }
+[InfoSec Policy v1.3 — Word](MT-ISMS-POL-001_v1.3_infosec-policy.docx){: .btn }
+[Scope & Context v1.3 — Archive (PDF)](MT-ISMS-SCO-001_v1.3_scope-context.pdf){: .btn }
+[InfoSec Policy v1.2 — Archive (PDF)](MT-ISMS-POL-001_v1.2_infosec-policy.pdf){: .btn }
 [Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
@@ -193,5 +201,5 @@ is coincidental.
 ## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | PECB ISO/IEC 27001 Provisional Implementer · PECB ISO/IEC 27001 Provisional Auditor *(In Progress)* · PECB NIS2 Provisional Implementer · Associate of ISC2 CISSP *(In Progress)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
 

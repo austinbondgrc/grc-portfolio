@@ -20,13 +20,14 @@ The documents in this folder prove the ability to translate abstract legal statu
 
 ### 1. NIS2 Incident Reporting Workflow
 
-**File:** [`MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf`](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf)
+**File:** [`MT-NIS2-IRP-001_v1.4_nis2-incident-reporting-workflow.pdf`](MT-NIS2-IRP-001_v1.4_nis2-incident-reporting-workflow.pdf)
 
 | Field | Detail |
 | :--- | :--- |
 | **Framework Reference** | NIS2 Art. 23 / § 32 BSIG |
 | **Format** | PDF Document (Standard Operating Procedure) |
-| **Version** | 1.3 (entity classification correction) |
+| **Version** | 1.4 (consistency release) |
+| **Effective** | 26 October 2026 |
 
 **What this document does:**  
 It establishes the mandatory reporting workflow for the MunichTech incident response team. It defines exactly what constitutes a "Significant Incident" and outlines the strict timeline for notifying the German Federal Office for Information Security (BSI).
@@ -104,7 +105,7 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 └── 5 — Audit & Metrics
     ├── Internal Audit Checklist             (Clause 9.2)
     ├── Management Review Agenda             (Clause 9.3)
-    └── CAP Closure Memo                     (Clause 10.1)
+    └── CAP Closure Memo                     (Clause 10.2)
 ```
 
 ---
@@ -123,11 +124,12 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 
 ## Download Documents
 
-[Incident Reporting Workflow — PDF](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf){: .btn }
-[Incident Reporting Workflow — Word](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.docx){: .btn }
+[Incident Reporting Workflow v1.4 — PDF](MT-NIS2-IRP-001_v1.4_nis2-incident-reporting-workflow.pdf){: .btn }
+[Incident Reporting Workflow v1.4 — Word](MT-NIS2-IRP-001_v1.4_nis2-incident-reporting-workflow.docx){: .btn }
 [NIS-2 Registration Record — PDF](MT-NIS2-REG-001_v1.1_nis2-registration-record.pdf){: .btn }
 [NIS-2 Registration Record — Word](MT-NIS2-REG-001_v1.1_nis2-registration-record.docx){: .btn }
 [DSGVO RoPA — Excel](MT-DSGVO-RoPA-001_v1.0_records-of-processing-activities.xlsx){: .btn }
+[Incident Reporting Workflow v1.3 — Archive (PDF)](MT-NIS2-IRP-001_v1.3_nis2-incident-reporting-workflow.pdf){: .btn }
 [Download the full portfolio (ZIP)]({{ '/Austin-Bond-GRC-Portfolio.zip' | relative_url }}){: .btn .btn-primary }
 
 ---
@@ -135,4 +137,4 @@ ISO 27001:2022 ISMS Portfolio — MunichTech GmbH
 ## Contact
 
 **Austin Bond**  
-Junior GRC Professional | ISO 27001 Provisional Implementer *(Completed)*/Auditor *(In Progress)*, NIS2 Provisional Implementer *(Completed)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
+Junior GRC Professional | PECB ISO/IEC 27001 Provisional Implementer · PECB ISO/IEC 27001 Provisional Auditor *(In Progress)* · PECB NIS2 Provisional Implementer · Associate of ISC2 CISSP *(In Progress)* [LinkedIn](https://www.linkedin.com/in/austinbondgrc)
