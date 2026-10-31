@@ -39,7 +39,7 @@ rights — is woven throughout.
 | **Languages** | English (Native) · German (C1)(In Progress) |
 | **Target Market** | German private sector — in-house GRC roles and consulting companies |
 | **LinkedIn** | [linkedin.com/in/austinbondgrc](https://www.linkedin.com/in/austinbondgrc) |
-| **Email** | [austinbond@protonmail.com](mailto:austinbond@protonmail.com) |
+| **Email** | [austinbond@tutanota.de](mailto:austinbond@tutanota.de) |
 
 ---
 
